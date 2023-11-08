@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+  }
+  :root {
+
+    --primary-color: #ff8c22 /* A green shade for primary actions */
+    
+    --secondary-color: #939598; /* A coral shade for secondary actions */
+    
+    --accent-color: #F1F1F1; /* A blue shade for accents and highlights */
+    
+    --background-color: #0e0e0e; /* A light grey background color for general use */
+    
+    }
+
+    /* body {
+
+      background-color: var(--background-color);
+      
+      }
+      
+      h1 {
+      
+      color: var(--primary-color);
+      
+      } */

@@ -16,8 +16,8 @@ function App() {
     <Navbar/>
     <MyRoutes/>
     
-    </BrowserRouter>
     <Footer/>
+    </BrowserRouter>
    
      
 

@@ -1,6 +1,7 @@
 import React from "react";
-import "./Navbar.css"
-import { Box, Grid, Typography,Button } from "@mui/material";
+import "./Navbar.css";
+import { Box, Grid, Typography, Button } from "@mui/material";
+import { NavLink } from "react-router-dom";
 // import {  } from "@mui/joy";
 
 function Click() {
@@ -16,11 +17,11 @@ function Navbar() {
           <h1>Easy to Pitch</h1>
         </div> */}
         <Typography variant="h6" fontWeight={800} height={50} bgcolor={"white"}>
-            Easy
-            <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
-              to pitch
-            </Typography>
+          Easy
+          <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
+            to pitch
           </Typography>
+        </Typography>
       </a>
       <div href="#" className="toggle-button" onClick={Click}>
         <span className="bar"></span>
@@ -30,42 +31,114 @@ function Navbar() {
       <nav className="main-nav">
         <ul>
           <li>
-           <a href="/">Home</a>
-           </li>
-           <li>
-            
-            <a href="/aboutus">About Us</a>
+            <NavLink
+              to="/"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Home</a>
+            </NavLink>
+            {/* <a >Home</a> */}
           </li>
           <li>
-            <a href="/ourservices">Our Services</a>
+            <NavLink
+              to="/aboutus"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>About Us</a>
+            </NavLink>
+            {/* <a href="/aboutus">About Us</a> */}
           </li>
           <li>
-            <a href="/getfunded">Get Funded</a>
-          </li>
-          
-          <li>
-            <a href="/videopitch">Video Pitch</a>
-          </li>
-          <li>
-            <a href="/investors">Investors</a>
-          </li>
-          <li>
-            <a href="/blogs">Blogs</a>
+            <NavLink
+              to="/ourservices"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Our Services</a>
+            </NavLink>
+            {/* <a href="/">O</a> */}
           </li>
           <li>
-            <a href="/pricing">Pricing</a>
+            <NavLink
+              to="/getfunded"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Get Funded</a>
+            </NavLink>
+            {/* <a href="/"></a> */}
+          </li>
+
+          <li>
+            <NavLink
+              to="/videopitch"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Video Pitch</a>
+            </NavLink>
+            {/* <a href="/videopitch"></a> */}
           </li>
           <li>
-            <a href="/contactus"> <Button
-            variant="contained"
-            sx={{ 
-              '&:hover': {
-                background:'#ff8c22'
-           }
-              ,bgcolor: "orange", mt: -1}}
-          >
-            Contact Us
-          </Button></a>
+            <NavLink
+              to="/investors"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Investors</a>
+            </NavLink>
+            {/* <a href="/"></a> */}
+          </li>
+          <li>
+          <NavLink
+              to="/blogs"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Blogs</a>
+            </NavLink>
+            {/* <a href="/"></a> */}
+          </li>
+          <li>
+          <NavLink
+              to="/pricing"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <a>Pricing</a>
+            </NavLink>
+            {/* <a href="/"></a> */}
+          </li>
+          <li>
+          <NavLink
+              to="/contactus"
+              style={({ isActive }) => ({
+                color: isActive ? "orange" : "#545454",
+              })}
+            >
+              <Button
+                variant="contained"
+                sx={{
+                  "&:hover": {
+                    background: "#ff8c22",
+                  },
+                  bgcolor: "orange",
+                  mt: -1,
+                }}
+              >
+                Contact Us
+              </Button>
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -74,4 +147,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

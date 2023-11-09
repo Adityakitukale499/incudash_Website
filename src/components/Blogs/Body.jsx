@@ -5,7 +5,7 @@ const Body = () => {
   return (
     <>
       <Grid container my={8}>
-        <Grid item xs={12} lg={3}>
+        <Grid item xs={12} lg={3.4}>
           <Box
             px={5}
             color={"#949494"}
@@ -64,7 +64,7 @@ const Body = () => {
             <div>Women entrepreneur</div>
           </Box>
         </Grid>
-        <Grid item xs={12} lg={9}>
+        <Grid item xs={12} lg={8.5}>
           <Grid container>
             <Grid item xs={12} lg={4}>
               <Box>

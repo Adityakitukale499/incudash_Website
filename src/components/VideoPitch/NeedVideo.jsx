@@ -105,23 +105,23 @@ const NeedVideo = () => {
     // </>
     <>
       <Box backgroundColor={'#f1f1f1'}>
-      <Typography variant="h4" fontSize={36} fontWeight={600} pt={8} sx={{ textAlign: "center" }}>
+      <Typography variant="h4" pt={8} sx={{ fontFamily: "Poppins" , fontWeight: 600 , fontSize:"28px" , textAlign: "center" }} color={"#444444"}>
         Why you need Video Pitch.
         <br />
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <span style={{ height: "3px", width: "60px", backgroundColor: "#FF8C22" }}></span>
+          <span style={{ height: "3px", width: "50px", backgroundColor: "#FF8C22" }}></span>
         </div>
       </Typography>
 
-      <Grid container justifyContent="center" spacing={4} p={7}>
+      <Grid container justifyContent="center"  p={7}>
         <Grid item xs={12} lg={4} display="flex" justifyContent="center" alignItems="center">
-          <Box  sx={{ m: 2, width: "85%" }}>
+          <Box  sx={{ m: 2, pb:3.5, width: "85%" , display : 'flex' , flexDirection : "column" , justifyContent : 'space-between' }}>
             <img src="VideoPitch.png" width="100%" />
             <Box p={1} textAlign="start">
-              <Typography variant="h5" fontWeight={600} color="#FF8C22">
+              <Typography variant="h5" sx={{ fontFamily: "Raleway" , fontWeight: 500 , fontSize:"24px"  }} color={"#FF8C22"}>
                 Set Yourself Apart
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{ fontFamily: "Open Sans" , fontWeight: 400 , fontSize:"16px"}} color={"#444444"}>
                 Investor inboxes are flooded with Pitch Decks. It's necessary for you to set your pitch deck apart.
               </Typography>
             </Box>
@@ -131,10 +131,10 @@ const NeedVideo = () => {
           <Box sx={{ m: 2, width: "85%" }}>
             <img src="VideoPitch2.png" width="100%" />
             <Box p={1} textAlign="start">
-              <Typography variant="h5" fontWeight={600} color="#FF8C22">
+              <Typography variant="h5" sx={{ fontFamily: "Raleway" , fontWeight: 500 , fontSize:"24px"  }} color={"#FF8C22"}>
                 Showcase Story & passion
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{ fontFamily: "Open Sans" , fontWeight: 400 , fontSize:"16px"}} color={"#444444"}>
                 A video helps bring your pitch to life. You can share your story and passion with investors in a dynamic way.
               </Typography>
             </Box>
@@ -144,10 +144,10 @@ const NeedVideo = () => {
           <Box sx={{ m: 2, width: "85%" }}>
             <img src="Untitleddesign.jpg" width="100%" />
             <Box p={1} textAlign="start">
-              <Typography variant="h5" fontWeight={600} color="#FF8C22">
+              <Typography variant="h5" sx={{ fontFamily: "Raleway" , fontWeight: 500 , fontSize:"24px"  }} color={"#FF8C22"}>
                 Investors want Video Pitches
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{ fontFamily: "Open Sans" , fontWeight: 400 , fontSize:"16px"}} color={"#444444"}>
                 Top accelerator programs have started to  require or encourage startups to include a  pitch video as part of their application.
               </Typography>
             </Box>

@@ -4,7 +4,7 @@ import { Box, Grid, Typography } from "@mui/material";
 const Investors = () => {
   return (
     <>
-      <Typography variant="h5" fontWeight={600} textAlign={"center"} my={10}>
+      <Typography variant="h5"sx={{fontFamily: "Poppins" , fontWeight: 600 , fontSize: '28px' , lineHeight:"33.6pxpx" , textAlign: 'center'}} color={"#444444"} my={10}>
         Investors On Board
         <br />
         <div
@@ -12,6 +12,7 @@ const Investors = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            marginTop:10
           }}
         >
           <span

@@ -7,7 +7,7 @@ const Team = () => {
       <Typography variant="h4" fontWeight={600} textAlign={"center"} my={10}>
         The Team
         <br/>
-        <div style={{display: "flex",justifyContent : "center" ,alignItems : "center" }} >
+        <div style={{display: "flex",justifyContent : "center" ,alignItems : "center", marginTop:10 }} >
       <span style={{height:"3px",width : "60px", backgroundColor:"#FF8C22"}}  >
 
 
@@ -70,16 +70,18 @@ const Team = () => {
                 pb={3}
                 mt={2}
               >
-                <img src="priyankamadnani.png" width={160}  />
+                <img src="priyankamadnani.png" style={{width:'186px' , height:'182px'}} />
                 
-                <Typography variant="h6" fontWeight={600}>
+                <Typography sx={{fontFamily:'Raleway', fontWeight:700, fontSize:'18px', lineHeight:'21.6px', textAlign:'center', color:'#444444'}}>
                     Priyanka Madnani
                   </Typography>
 
-                  <Typography variant="body1" mt={-2.5} >Founder & CEO</Typography>
+                  <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'13px', lineHeight:'19.5px', textAlign:'center',
+                  fontStyle:'italic', color:'#444444'}}>Founder & CEO</Typography>
                
               </Box>
-              <Typography textAlign={"center"} mb={3}>
+              <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'14px', lineHeight:'21px', textAlign:'center',
+                  fontStyle:'italic', color:'#aaaaaa'}}>
                 She is a Mentor of Change at AIM, NITI Aayog Recognized with
                 Indian Women Excellence and Leadership Award 2019 in E Commerce
                 also Recognized with Women Excellence Award for Easy To Pitch in
@@ -102,16 +104,18 @@ const Team = () => {
                 pb={3}
                 mt={2}
               >
-                <img src="nikhilparmar.jpg" width={160} />
+                <img src="nikhilparmar.jpg" style={{width:'186px' , height:'182px'}}/>
                 
-                  <Typography variant="h6" fontWeight={600}>
+                  <Typography sx={{fontFamily:'Raleway', fontWeight:700, fontSize:'18px', lineHeight:'21.6px', textAlign:'center', color:'#444444'}}>
                     Nikhil Parmar
                   </Typography>
 
-                  <Typography variant="body1" mt={-2} >Founder & CFO</Typography>
+                  <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'13px', lineHeight:'19.5px', textAlign:'center',
+                  fontStyle:'italic', color:'#444444'}}>Founder & CFO</Typography>
                
               </Box>
-              <Typography textAlign={"center"} mb={7} height={"225px"}>
+              <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'14px', lineHeight:'21px', textAlign:'center',
+                  fontStyle:'italic', color:'#aaaaaa'}} height={"230px"}>
                 Nikhil is a strategy and finance expert, post graduated from IM
                 Udaipur. He is also an angel investor and has invested in
                 startups like Fitspire. He is always most concerned about the

@@ -10,30 +10,29 @@ const Body = () => {
     <Grid item xs = {12} lg = {4} >
     <img
           src= "Top_Lapy.png"
-          style={{ width : "340px"}}
+          style={{ width : "320px" , height: "230px"}}
         />
 
     </Grid>
 
     <Grid item xs = {12} lg = {8} >
 
-    <Box >
-          <Typography variant="h4" sx={{ fontWeight: 600, fontSize:37 }}>
+    <Box  gap={"24px"} >
+          <Typography variant="h4" sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }}>
             Let us be a part of your startup <br/>
             journey!
           </Typography>
-          <Typography variant="body1" sx={{ mb: 1 }}>
+          <Typography variant="body1" sx={{ my: 1 , fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px" }}>
             We make founders pitch ready. Build your startup story and not just
-            a pitch deck. Get <br/> your Financial Valuations and Projections perfect
-            Customized jaw-dropping <br/> presentations with best design and crisp
+            a pitch deck. Get  your Financial Valuations and Projections perfect
+            Customized jaw-dropping  presentations with best design and crisp
             content to raise capital.
           </Typography>
 
-          <Typography variant="body1">
+          <Typography variant="body1" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}}>
             Depending on the sector, stage and market of your startup, Easy to
-            Pitch builds your <br/>  investment pitch deck presentation that is
-            designed to tell your startup story in the <br/>
-            best way possible to
+            Pitch builds your investment pitch deck presentation that is
+            designed to tell your startup story in the  best way possible to
             investors in order to face less rejections.
           </Typography>
         </Box>

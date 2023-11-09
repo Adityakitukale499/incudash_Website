@@ -1,16 +1,15 @@
-import React from 'react'
-import MainSection from '../components/Services/MainSection'
-import OurService from '../components/Services/OurService'
+import React from "react";
+
+import OurService from "../components/Services/OurService";
+import MainSection from "../components/MainSection";
 
 const OurServices = () => {
   return (
     <>
-    <MainSection/>
-    <OurService/>
-   
-      
+      <MainSection routeName={"Our Services"} />
+      <OurService />
     </>
-  )
-}
+  );
+};
 
-export default OurServices
+export default OurServices;

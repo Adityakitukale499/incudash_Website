@@ -3,8 +3,16 @@ import React from "react";
 
 const FeatureSection = () => {
   return (
-    <Box m={10}>
-      <Grid container display={"flex"} px={10}  justifyContent={"center"} alignItems={"center"} gap={10} >
+    <Box m={{
+      lg: 10,
+      md: 8,
+      sm: 6,
+      xs: 2}}>
+      <Grid container display={"flex"} px={{
+      lg: 10,
+      md: 8,
+      sm: 6,
+      xs: 2}}  justifyContent={"center"} alignItems={"center"} gap={10} >
         <Grid item  textAlign={"start"} xs= {12} lg ={4.5}>
           <Typography variant="h5" fontWeight={600} mb={1}>
            Latest Update
@@ -23,10 +31,10 @@ const FeatureSection = () => {
         <Box display={"flex"} gap={5}  my={2}>
             <img src="Image-1.png" width={80} />
             <Box sx={{width:'100%'}}>
-            <Typography variant="body1" fontSize={19} fontWeight={600}>
+            <Typography variant="body1" sx={{fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} >
             We got featured in CRN India!
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" sx={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>
             Easy to Pitch launches India's first helpline for  founders, disrupts startup ecosystem
             </Typography>
               <Typography  variant="body2"  sx={{textAlign : "end" , color: "orange"}} >
@@ -38,10 +46,10 @@ const FeatureSection = () => {
           <Box display={"flex"} gap={5}  my={2}>
             <img src="Image-1.png" width={80} />
             <Box sx={{width:'100%'}}>
-            <Typography variant="body1" fontSize={19} fontWeight={600}>
+            <Typography variant="body1" sx={{fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>
             We got featured in CRN India!
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" sx={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>
             Easy to Pitch launches India's first helpline for  founders, disrupts startup ecosystem
             </Typography>
               <Typography  variant="body2"  sx={{textAlign : "end" , color: "orange"}} >
@@ -53,10 +61,10 @@ const FeatureSection = () => {
           <Box display={"flex"} gap={5}  my={2}>
             <img src="Image-1.png" width={80} />
             <Box sx={{width:'100%'}}>
-            <Typography variant="body1" fontSize={19} fontWeight={600}>
+            <Typography variant="body1" sx={{fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>
             We got featured in CRN India!
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" sx={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>
             Easy to Pitch launches India's first helpline for  founders, disrupts startup ecosystem
             </Typography>
               <Typography  variant="body2"  sx={{textAlign : "end" , color: "orange"}} >

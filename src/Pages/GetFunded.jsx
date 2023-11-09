@@ -1,18 +1,17 @@
-import React from 'react'
-import MainSection from '../components/Fund/MainSection'
-import Funds from '../components/Fund/Funds'
-import Investors from '../components/Fund/Investors'
+import React from "react";
+
+import Funds from "../components/Fund/Funds";
+import Investors from "../components/Fund/Investors";
+import MainSection from "../components/MainSection";
 
 const GetFunded = () => {
   return (
     <>
-    <MainSection/>
-    <Funds/>
-    <Investors/>
-    
-      
+      <MainSection routeName={"Get Funded"} />
+      <Funds />
+      <Investors />
     </>
-  )
-}
+  );
+};
 
-export default GetFunded
+export default GetFunded;

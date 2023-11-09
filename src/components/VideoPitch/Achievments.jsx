@@ -1,69 +1,87 @@
-import React from 'react'
-import { Box, Grid, Typography } from '@mui/material'
-import { styled } from '@mui/material/styles';
-import CircularProgress, {
-  circularProgressClasses,
-} from '@mui/material/CircularProgress';
-import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import { Box, Grid, Typography } from "@mui/material";
+import React from "react";
 
-const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
-  height: 10,
-  borderRadius: 5,
-  [`&.${linearProgressClasses.colorPrimary}`]: {
-    backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
-  },
-  [`& .${linearProgressClasses.bar}`]: {
-    borderRadius: 5,
-    backgroundColor: theme.palette.mode === 'light' ? '#1a90ff' : '#308fe8',
-  },
-}));
-
-
-const Achievments = () => {
+const Achievment = () => {
   return (
-    <>
+     <>
 
-<Box sx={{display : "flex" , justifyContent: "center" , textAlign : "center", }} >
-      <Grid container spacing={1} sx={{p:10, textAlign:'center', bgcolor: "#F5F7FA" ,px:20,color:'#212121'
+      <Box sx={{display : "flex" , justifyContent: "center" , textAlign : "center", }} >
+      <Grid container spacing={3} sx={{p:10, textAlign:'center', bgcolor: "#F5F7FA" ,px:20,color:'#212121'
   }}>
       
-      <Grid item lg={2.4} xs={3} >
-      <Typography variant="h3" sx={{fontWeight:600,fontSize : 45 }} >
+      <Grid item lg={2.4} xs={10} >
+      <Typography variant="h3" sx={{ fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "40px" }} >
             500+
         </Typography>
-        <Typography variant="body2">Startup Served</Typography>
+        <Typography variant="body2" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}}  >Startup Served</Typography>
       </Grid>
-      <Grid item lg={2.4} xs={3}>
-      <Typography variant="h3" sx={{fontWeight:600 ,fontSize : 45}}>
+      <Grid item lg={2.4} xs={10}>
+      <Typography variant="h3" sx={{ fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "40px"  }}>
             5000+
         </Typography>
-        <Typography variant="body2" >Decks Reviewed</Typography>
+        <Typography variant="body2" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}} >Decks Reviewed</Typography>
       </Grid>
-      <Grid item lg={2.4} xs={3} >
-      <Typography variant="h3" sx={{fontWeight:600,fontSize : 45,}}>
+      <Grid item lg={2.4} xs={10} >
+      <Typography variant="h3" sx={{fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "40px" }}>
             200+
         </Typography>
-        <Typography variant="body2" >Ecosystem Partners</Typography>
+        <Typography variant="body2" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}}>Ecosystem Partners</Typography>
       </Grid>
-      <Grid item lg={2.4} xs={3}>
-      <Typography variant="h3" sx={{fontWeight:600,fontSize : 45}}>
+      <Grid item lg={2.4} xs={10}>
+      <Typography variant="h3" sx={{fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "40px" }}>
             1000+
         </Typography>
-        <Typography variant="body2" >Founders Gromed</Typography>
+        <Typography variant="body2" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}} >Founders Gromed</Typography>
       </Grid>
-      <Grid item lg={2.4} xs={3}>
-        <Typography variant="h3" sx={{fontWeight:600,fontSize : 45}}>
+      <Grid item lg={2.4} xs={10}>
+        <Typography variant="h3" sx={{fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "40px" }}>
             21+
         </Typography>
-        <Typography variant="body2">Cities Reached</Typography>
+        <Typography variant="body2" sx={{ fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px"}}>Cities Reached</Typography>
       </Grid>
       {/* <Grid item lg={2} xs={4}></Grid> */}
     </Grid>
 
       </Box>
-      
-    </>
-  )
-}
+     
 
-export default Achievments
+     </>
+    
+//     <Grid container spacing={2} justifyContent="space-between" sx={{ my: 1, py: 3, textAlign: 'center', bgcolor: "#F5F7FA" }}>
+//   <Grid item lg={2.4} xs={4}>
+//     <Typography variant="h3" sx={{ fontWeight: 600, fontSize: 50 }}>
+//       500+
+//     </Typography>
+//     <Typography variant="caption">Startup Served</Typography>
+//   </Grid>
+//   <Grid item lg={2.4} xs={4}>
+//     <Typography variant="h3" sx={{ fontWeight: 600, fontSize: 40 }}>
+//       5000+
+//     </Typography>
+//     <Typography variant="caption">Decks Reviewed</Typography>
+//   </Grid>
+//   <Grid item lg={2.4} xs={4}>
+//     <Typography variant="h3" sx={{ fontWeight: 600 }}>
+//       200+
+//     </Typography>
+//     <Typography variant="caption">Ecosystem Partners</Typography>
+//   </Grid>
+//   <Grid item lg={2.4} xs={4}>
+//     <Typography variant="h3" sx={{ fontWeight: 600 }}>
+//       1000+
+//     </Typography>
+//     <Typography variant="caption">Founders Groomed</Typography>
+//   </Grid>
+//   <Grid item lg={2.4} xs={4}>
+//     <Typography variant="h3" sx={{ fontWeight: 600 }}>
+//       21+
+//     </Typography>
+//     <Typography variant="caption">Cities Reached</Typography>
+//   </Grid>
+// </Grid>
+
+    
+  );
+};
+
+export default Achievment;

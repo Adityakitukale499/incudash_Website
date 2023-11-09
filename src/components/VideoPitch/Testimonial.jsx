@@ -5,15 +5,31 @@ const Testimonial = () => {
   return (
     <>
 
-<Typography variant="h4" fontWeight={600} textAlign={"center"} my={10}>
+<Typography variant="h4" sx={{ textAlign: "center", fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: {
+      lg:'32px',
+      md: '30px',
+      sm: '25px',
+      xs: '25px'} }} color={"#000000"} my={{
+      lg: 10,
+      md: 8,
+      sm: 6,
+      xs: 5}}>
         Testimonial Section
       </Typography>
 
-      <Box display={"flex"} justifyContent={"center"} alignItems={"center"}  px={20}>
+      <Box display={"flex"} justifyContent={"center"} alignItems={"center"}  px={{
+      lg: 20,
+      md: 15,
+      sm: 10,
+      xs: 5}}>
       <Grid container spacing={2}>
-        <Grid item xs={12} lg={4} px={4}  >
-          <Box border={"2px solid #f1f1f1"} padding={4}>
-            <Typography textAlign={"start"} mb={5}>
+        <Grid item xs={12} lg={4} px={{
+      lg:4,
+      md: 3,
+      sm: 2,
+      xs: 1}}  >
+          <Box border={"2px solid #f1f1f1"} p={4}>
+            <Typography textAlign={"start"} sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} mb={5} lineHeight={'21px'}>
               "Easy To Pitch and its cohort helped  us to be pitch ready
               and grooming.  The team and the founder helped  us a
               lot in making the right pitch  deck due to which we were
@@ -23,24 +39,28 @@ const Testimonial = () => {
           
 
           <Box bgcolor={"#f1f1f1"} display={"flex"} justifyContent={'center'} alignItems={'center'} gap={2} p={3} mt={2}>
-            <img src="Co1.png" width={60} height={70} />
+            <img src="Co1.png" width={"60px"} height={"60px"} />
             <Box>
-              <Typography variant="h6" fontWeight={600}>
-                Pramudit <br />
+              <Typography variant="h6"  sx={{  fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "20px" }} color={"#000000"} lineHeight={'30px'}>
+                Pramudit 
                 Somvanshi
               </Typography>
 
-              <Typography variant="body2">
-                Co-Founder at <br /> Ingenium Education
+              <Typography variant="body2"  sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} lineHeight={'21px'}>
+                Co-Founder at Ingenium Education
               </Typography>
             </Box>
           </Box>
           </Box>
         </Grid>
 
-        <Grid item xs={12} lg={4} px={4} >
+        <Grid  item xs={12} lg={4} px={{
+      lg:4,
+      md: 3,
+      sm: 2,
+      xs: 1}} >
         <Box border={"2px solid #f1f1f1"} padding={4}>
-            <Typography textAlign={"start"} mb={4}>
+            <Typography textAlign={"start"} sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} mb={4} lineHeight={'21px'}>
             "Easy to pitch helped us in creating the pitch deck crisp,
               clear and concise. Especially, the financial 
               projections are made easy with their expertise, I highly
@@ -51,14 +71,14 @@ const Testimonial = () => {
           
 
           <Box bgcolor={"#f1f1f1"} display={"flex"} justifyContent={'center'} alignItems={'center'} gap={2} p={3} mt={2}>
-            <img src="Co2.png" width={60} height={70} />
+            <img src="Co2.png" width={"60px"} height={"60px"} />
             <Box>
-              <Typography variant="h6" fontWeight={600}>
-              Sulaiman  <br/> Mmd
+              <Typography variant="h6" sx={{  fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "20px" }} color={"#000000"} lineHeight={'30px'}>
+              Sulaiman   Mmd
               </Typography>
 
-              <Typography variant="body2">
-              Co-Founder & CEO at  <br/> BiryBox
+              <Typography variant="body2"  sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} lineHeight={'21px'}>
+              Co-Founder & CEO at BiryBox
               </Typography>
             </Box>
           </Box>
@@ -66,9 +86,13 @@ const Testimonial = () => {
           
         </Grid>
 
-        <Grid item xs={12} lg={4} px={4} >
+        <Grid item xs={12} lg={4} px={{
+      lg:4,
+      md: 3,
+      sm: 2,
+      xs: 1}} >
         <Box border={"2px solid #f1f1f1"} padding={4}>
-            <Typography textAlign={"start"} mb={4}>
+            <Typography textAlign={"start"} sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} mb={4} lineHeight={'21px'}>
             "It was a great experience, the team 
              was always on toes. They helped us :
               to align the story and the pitch 
@@ -81,12 +105,12 @@ const Testimonial = () => {
           <Box bgcolor={"#f1f1f1"} display={"flex"} justifyContent={'center'} alignItems={'center'} gap={2} p={3} mt={2}>
             <img src="Co3.png" width={60} height={70} />
             <Box>
-              <Typography variant="h6" fontWeight={600}>
-              Vaibhav <br/> Gupta
+              <Typography variant="h6" sx={{  fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "20px" }} color={"#000000"} lineHeight={'30px'}>
+              Vaibhav Gupta
               </Typography>
 
-              <Typography variant="body2">
-              Co-founder at <br/> Medicalwale.com
+              <Typography variant="body2" sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"} lineHeight={'21px'}>
+              Co-founder at  Medicalwale.com
               </Typography>
             </Box>
           </Box>

@@ -7,11 +7,21 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <Box  sx={{ backgroundImage: "url('Hero.png')", backgroundRepeat: "no-repeat",
-    backgroundSize: "cover", p:8 }}>
-      <Grid container sx={{ textAlign: "start"}}>
+    <Box
+      sx={{
+        backgroundImage: "url('Hero.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        p: {
+          lg: 8,
+          md: 6,
+          sm: 4,
+          xs: 2,
+        },
+      }}
+    >
+      <Grid container sx={{ textAlign: "start" }}>
         <Grid
-        
           item
           xs={12}
           lg={4}
@@ -19,7 +29,13 @@ const Footer = () => {
           justifyContent={"center"}
           textAlign={"center"}
         >
-          <Typography variant="h6" mb={5} fontWeight={800} height={50} bgcolor={"white"}>
+          <Typography
+            variant="h6"
+            fontWeight={800}
+            height={50}
+            mb={4}
+            bgcolor={"white"}
+          >
             Easy
             <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
               to pitch
@@ -27,11 +43,22 @@ const Footer = () => {
           </Typography>
         </Grid>
 
-        <Grid item xs={12} lg={8} >
-          <Box display={"flex"} justifyContent={"space-between"} mx={15} >
+        <Grid item xs={12} lg={7.5}>
+          <Box
+            display={"flex"}
+            justifyContent={"space-between"}
+            mx={{
+              lg: 10,
+              md: 8,
+              sm: 5,
+              xs: 1,
+            }}
+          >
             <Box>
-              <Typography variant="body1" color={"orange"}>Contact Us</Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+                Contact Us
+              </Typography>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
                 Toll-Free: 18003099044 <br />
                 Email: info@easytopitch.com <br />
                 <FacebookIcon />
@@ -40,9 +67,11 @@ const Footer = () => {
               </Typography>
             </Box>
             <Box>
-              <Typography variant="body1" color={"orange"}>ABOUT</Typography>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+                ABOUT
+              </Typography>
 
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
                 One stop solution <br />
                 for pitching.We <br />
                 make founders <br />
@@ -53,9 +82,11 @@ const Footer = () => {
             </Box>
 
             <Box>
-              <Typography variant="body1" color={"orange"}>Our Services</Typography>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+                Our Services
+              </Typography>
 
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
                 Pitch Deck <br />
                 Business <br />
                 Plan <br />
@@ -65,32 +96,39 @@ const Footer = () => {
                 Founder <br />
                 Grooming
               </Typography>
-              </Box>
-
-              <Box>
-                <Typography variant="body1" color={"orange"}>Useful Links</Typography>
-                <Typography variant="body1">
-                  Home <br />
-                  About Us <br />
-                  Our Services <br />
-                  Pricing <br />
-                  Get Funded <br />
-                  Video Pitch <br />
-                  investors <br />
-                  Blogs <br />
-                  Contact Us
-                </Typography>
-              </Box>
             </Box>
-          
+
+            <Box>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+                Useful Links
+              </Typography>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+                Home <br />
+                About Us <br />
+                Our Services <br />
+                Pricing <br />
+                Get Funded <br />
+                Video Pitch <br />
+                investors <br />
+                Blogs <br />
+                Contact Us
+              </Typography>
+            </Box>
+          </Box>
         </Grid>
-        
       </Grid>
       {/* <p style={{display: "flex" , justifyContent : "center" , textAlign : "center"}} > Copyright &copy; 2023 <b> Easy to Pitch </b></p> */}
-      <p style={{ display: "flex", justifyContent: "center", textAlign: "center" }}>
-  Copyright &copy; 2023&nbsp;<b style={{ padding: '0 5px' }}>Easy to Pitch</b>
-</p>
-
+      <p
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+          marginTop:50
+        }}
+      >
+        Copyright &copy; 2023&nbsp;
+        <b style={{ padding: "0 5px" }}>Easy to Pitch</b>
+      </p>
     </Box>
   );
 };

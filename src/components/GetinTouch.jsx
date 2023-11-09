@@ -1,5 +1,6 @@
 import { Typography, Button, Box } from "@mui/material";
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
 
 const GetInTouch = () => {
   const [email, setEmail] = useState("");
@@ -8,11 +9,36 @@ const GetInTouch = () => {
   const [message, setMessage] = useState("");
 
   const [allEntry, setAllEntry] = useState([]);
-
-  const submit = (e) => {
+  const success = () => toast.success("store data succsesfully!!");
+  const faild = () => toast.warning("store data succsesfully!!");
+  const submit = async (e) => {
     e.preventDefault();
-    const newEntry = { email, password };
-    setAllEntry([...allEntry, newEntry]);
+    if(!name && !email && !message){
+      alert('please fill the all data')
+      return;
+    }
+    // const newEntry = { email, password };
+    // setAllEntry([...allEntry, newEntry]);
+    const res = await fetch('https://incudash-c829c-default-rtdb.firebaseio.com/userMassageData.json',{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+      },
+      body:JSON.stringify({
+        name,
+        email,
+        message,
+      })
+    })
+    if(res){
+      setEmail('')
+      setMessage('')
+      setName('')
+      success()
+      alert('store data succsesfully')
+    }else{
+      alert('faield')
+    }
   };
 
   return (
@@ -26,7 +52,7 @@ const GetInTouch = () => {
       </Typography>
 
       <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <form action="" onSubmit={submit} style={{ width: "500px" }}>
+        <form action="" method="POST" onSubmit={submit} style={{ width:'500px',minWidth: "200px" }}>
           <div
             style={{
               display: "flex",
@@ -47,9 +73,7 @@ const GetInTouch = () => {
               type="text"
               name="name"
               id="name"
-              // pattern=".+@globex\.com"
-              // size="30"
-              // required
+              required
               autoComplete="off"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -75,9 +99,7 @@ const GetInTouch = () => {
               type="text"
               name="email"
               id="email"
-              // pattern=".+@globex\.com"
-              // size="30"
-              // required
+              required
               autoComplete="off"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -91,7 +113,7 @@ const GetInTouch = () => {
               marginTop: "4px",
             }}
           >
-            <label htmlFor="name">Message</label>
+            <label htmlFor="massage">Message</label>
             <textarea
               style={{
                 marginTop: "8px",
@@ -102,11 +124,9 @@ const GetInTouch = () => {
               }}
               placeholder="Your message..."
               type="text"
-              name="name"
-              id="name"
-              // pattern=".+@globex\.com"
-              // size="30"
-              // required
+              name="massage"
+              id="massage"
+              required
               autoComplete="off"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -114,11 +134,11 @@ const GetInTouch = () => {
           </div>
           <Button
             variant="contained"
-            sx={{ 
-              '&:hover': {
-                background:'#ff8c22'
-           }
-              ,bgcolor: "orange", width: "100%", mt: 2 }}
+            type="submit"
+            sx={{ '&:hover': {
+              background:'#ff8c22'
+         },fontFamily : 'Montserrat ,sans-serif ' , fontWeight: 500 , fontSize:"13px" , width: "107px", height : "33px", borderRadius : "0" ,
+          bgcolor:"#ff8c22", color:"white" ,p:0, width: "100%", mt: 2 }}
           >
             Send Message
           </Button>

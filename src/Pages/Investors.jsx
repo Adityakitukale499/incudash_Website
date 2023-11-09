@@ -1,17 +1,15 @@
-import React from 'react'
-import MainSection from '../components/AnInvestor/MainSection'
-import Investor from '../components/AnInvestor/Investor'
+import React from "react";
+
+import Investor from "../components/AnInvestor/Investor";
+import MainSection from "../components/MainSection";
 
 const Investors = () => {
   return (
     <>
-    <MainSection/>
-    <Investor/>
-
-    
-      
+      <MainSection routeName={"Become an Investor"} />
+      <Investor />
     </>
-  )
-}
+  );
+};
 
-export default Investors
+export default Investors;

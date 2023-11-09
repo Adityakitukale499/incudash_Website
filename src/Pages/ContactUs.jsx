@@ -1,15 +1,15 @@
-import React from 'react'
-import MainSection from '../components/ContactUs/MainSection'
-import GetInTouch from '../components/ContactUs/GetInTouch'
+import React from "react";
+
+import MainSection from "../components/MainSection";
+import GetinTouch from "../components/GetinTouch";
 
 const ContactUs = () => {
   return (
     <div>
-    <MainSection/>
-    <GetInTouch/>
-      
+      <MainSection routeName={"Contact Us"} />
+      <GetinTouch />
     </div>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;

@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <>
 
-<Typography variant="h6" sx={{ textAlign: "center", fontWeight: 600 }}>
+<Typography variant="h6" sx={{ textAlign : "center" , fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "18px" }} color={"#000000"} >
         Our Portfolio
       </Typography>
      

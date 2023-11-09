@@ -1,31 +1,33 @@
-
-import { BrowserRouter } from 'react-router-dom'
-import './App.css'
-import Navbar from './Route/Navbar'
-import MyRoutes from './Route/MyRoutes'
-import Home from "./Pages/Home"
-import Footer from './components/Footer'
-
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Route/Navbar";
+import MyRoutes from "./Route/MyRoutes";
+import Footer from "./components/Footer";
+import { ToastContainer, toast } from "react-toastify";
 
 function App() {
-
   return (
     <>
-    <BrowserRouter>
-    
-    <Navbar/>
-    <MyRoutes/>
-    
-    <Footer/>
-    </BrowserRouter>
-   
-     
+      <BrowserRouter>
+        <Navbar />
+        <MyRoutes />
 
-    
+        <Footer />
+        <ToastContainer
+          position="bottom-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
-
-
+export default App;

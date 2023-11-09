@@ -4,7 +4,7 @@ import React from "react";
 const Portfolio = () => {
   return (
     <>
-      <Typography variant="h6" sx={{ textAlign: "center", fontWeight: 600 }}>
+      <Typography variant="h6" sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
         Our Portfolio
       </Typography>
      
@@ -16,7 +16,7 @@ const Portfolio = () => {
       <Typography
         variant="h6"
         my={10}
-        sx={{ textAlign: "center", fontWeight: 600 }}
+        sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}
       >
         Our Partners
       </Typography>
@@ -33,16 +33,16 @@ const Portfolio = () => {
           }}
         >
           <Box bgcolor={"#F5F7FA"} p={4}>
-            <Typography fontWeight={600} mb={3} variant="h5" gap={4}>
+            <Typography  mb={3} variant="h5" gap={4}   sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "24px" }} color={"#000000"}>
               "Aliquet consectetur id magna <br />
               ac integer. Aliquet consectetur <br />
               id magna acinteger."
             </Typography>
 
             <Box sx={{ display: "flex", gap: 2 }}>
-              <img src="aliquet.png" width="50" />
+              <img src="aliquet.png" width={"50px"} height={"50px"} />
 
-              <Box fontSize={18}>
+              <Box   sx={{ textAlign : 'start', fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} lineHeight={'21px'}>
                 Full Name, Title <br />
                 Company
               </Box>

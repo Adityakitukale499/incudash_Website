@@ -4,11 +4,11 @@ import React from "react";
 const OurService = () => {
   return (
     <Box sx={{my:12, color:'#212121'}}>
-      <Typography variant="h4" my={2}  sx={{ textAlign: "center", fontWeight: 700 }}>
+      <Typography textAlign={"center"} color={"#000000"} variant="h4" mb={2} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }} >
         Our Services
       </Typography>
 
-      <Typography variant="body1" sx={{ textAlign: "center",mb:4 }}>
+      <Typography textAlign={"center"}  color={"#000000"} variant="body1" sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px" , mb:4}}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
         Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem.
       </Typography>
@@ -27,11 +27,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography variant="h5" fontWeight={600} my={1}>
+              <Typography variant="h5"  my={1} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}} >
                 Review Pitch Deck
               </Typography>
 
-              <Typography textAlign={"center"}>
+              <Typography textAlign={"center"} sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
                 Let us review your pitch deck and tell you <br/> what it lags in.
               </Typography>
             </Box>
@@ -49,11 +49,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography variant="h5" my={1} fontWeight={600}>
+              <Typography variant="h5" my={1} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}} >
               Investment Deck
               </Typography>
 
-              <Typography textAlign={"center"}>
+              <Typography textAlign={"center"}  sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
               We build your pitch deck or business plan <br/> from scratch to make it investment ready.
                                       
               </Typography>
@@ -72,11 +72,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography variant="h5" my={1} fontWeight={600}>
+              <Typography variant="h5" my={1} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}}>
               Financial Valuations
               </Typography>
 
-              <Typography>
+              <Typography  sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
               Never play with your numbers. Let us build <br/> your financial projections or valuations to <br/> pitch to investors.
               </Typography>
             </Box>
@@ -96,11 +96,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography variant="h5" fontWeight={600} my={1}>
+              <Typography variant="h5"sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}} my={1}>
               Prepare for demo day
               </Typography>
 
-              <Typography>
+              <Typography  sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
                 Let us review your pitch deck and tell you<br/> what it lags in.
               </Typography>
             </Box>
@@ -118,11 +118,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography my={1} variant="h5" fontWeight={600}>
+              <Typography my={1} variant="h5" sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}}>
               Founder Grooming
               </Typography>
 
-              <Typography>
+              <Typography  sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
               Let us review your pitch deck and tell you <br/> what it lags in.
                                       
               </Typography>
@@ -141,11 +141,11 @@ const OurService = () => {
                 }}
               />
 
-              <Typography my={1} variant="h5" fontWeight={600}>
+              <Typography my={1} variant="h5" sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "24px"}}>
               Startup Meetups
               </Typography>
 
-              <Typography>
+              <Typography  sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px"}}>
               Let us review your pitch deck and tell you <br/> what it lags in.
               </Typography>
             </Box>

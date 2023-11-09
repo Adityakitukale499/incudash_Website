@@ -8,7 +8,7 @@ const Partners = () => {
 <Typography
         variant="h6"
         my={10}
-        sx={{ textAlign: "center", fontWeight: 600 }}
+        sx={{ textAlign: "center", fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "18px" }} color={"#000000"}
       >
         Our Partners
       </Typography>
@@ -25,16 +25,16 @@ const Partners = () => {
           }}
         >
           <Box bgcolor={"#F5F7FA"} p={4}>
-            <Typography fontWeight={600} mb={3} variant="h5" gap={4}>
+            <Typography sx={{ fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "24px", lineHeight:'36px' }} color={"#000000"} mb={3} variant="h5" gap={4}>
               "Aliquet consectetur id magna <br />
               ac integer. Aliquet consectetur <br />
               id magna acinteger."
             </Typography>
 
             <Box sx={{ display: "flex", gap: 2 }}>
-              <img src="aliquet.png" width="50" />
+              <img src="aliquet.png" width="50px"  height={"50px"}  />
 
-              <Box fontSize={18}>
+              <Box sx={{  fontFamily: "Montserrat"  , fontWeight: 400 , fontSize: "14px" }} color={"#000000"}>
                 Full Name, Title <br />
                 Company
               </Box>

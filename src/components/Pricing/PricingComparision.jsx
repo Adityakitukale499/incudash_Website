@@ -1,12 +1,12 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 const PricingComparision = () => {
   return (
     <>
-      <Box px={15} bgcolor={"#ffff"} color={'#545454'} >
-        <Grid container justifyContent={"center"} pb={3}>
+      <Box px={"15%"} mt={4} bgcolor={"#ffff"} color={"#545454"}>
+        <Grid container justifyContent={"center"} spacing={0} pb={3}>
           <Grid
             item
             xs={12}
@@ -18,7 +18,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, m: 7, width: "85%",boxShadow:'1px 1px 80px #8888' }}
+              sx={{ p:3, width: "100%", boxShadow: "1px 1px 150px #8888" }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -27,15 +27,50 @@ const PricingComparision = () => {
                 <img src="pricing1.png" width={"80px"} />
               </Box>
 
-              <Typography variant="h4" fontWeight={550} textAlign={"center"}>
+              <Typography
+                fontSize={"40px"}
+                lineHeight={"72px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
                 Idea/MVP
-                <Typography variant="body1" textAlign={"center"}>
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"14px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
                   Stage{" "}
                 </Typography>
               </Typography>
-              <Box padding={"5px"} margin={"2px"} my={5}  border={"1px solid #545454"}>
-                <Typography  variant="body2" textAlign={'center'}>TALK TO AN EXPERT</Typography>
-              </Box>
+              {/* <Box padding={"5px"} margin={"2px"} my={5}  border={"1px solid #212121"} height={'49px'}>
+                <Typography textAlign={'center'}>TALK TO AN EXPERT</Typography>
+              </Box> */}
+              <Button
+                variant="outlined"
+                sx={{
+                  "&:hover": {
+                    background: "#ff8c22",
+                    color:'#ffff',
+                    borderColor:'#ff8c22'
+                  },
+                  fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",
+                  width: "100%",
+                  height: "33px",
+                  borderRadius: "0",
+                  color:'#212121',
+                  borderColor:'#212121',
+                  my:5
+                }}
+              >
+                Talk to an expert
+              </Button>
               <Box sx={{ display: "flex", gap: 1 }}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
@@ -80,7 +115,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, m: 7, width: "85%",boxShadow:'1px 1px 80px #8888' }}
+              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 150px #8888" }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -89,15 +124,47 @@ const PricingComparision = () => {
                 <img src="pricing2.png" width={"80px"} />
               </Box>
 
-              <Typography variant="h4" fontWeight={550} textAlign={"center"}>
+              <Typography
+                fontSize={"40px"}
+                lineHeight={"72px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
                 Seed
-                <Typography variant="body1" textAlign={"center"}>
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"14px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
                   Stage{" "}
                 </Typography>
               </Typography>
-              <Box padding={"5px"} margin={"2px"}  my={5} border={"1px solid #545454"}>
-                <Typography variant="body2"  textAlign={'center'}>TALK TO AN EXPERT</Typography>
-              </Box>
+              <Button
+                variant="outlined"
+                sx={{
+                  "&:hover": {
+                    background: "#ff8c22",
+                    color:'#ffff',
+                    borderColor:'#ff8c22'
+                  },
+                  fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",
+                  width: "100%",
+                  height: "33px",
+                  borderRadius: "0",
+                  color:'#212121',
+                  borderColor:'#212121',
+                  my:5
+                }}
+              >
+                Talk to an expert
+              </Button>
               <Box sx={{ display: "flex", gap: 1 }}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
@@ -143,7 +210,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, m: 7, width: "85%",boxShadow:'1px 1px 80px #8888'  }}
+              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 150px #8888" }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -152,15 +219,47 @@ const PricingComparision = () => {
                 <img src="pricing3.png" width={"80px"} />
               </Box>
 
-              <Typography variant="h4" fontWeight={550} textAlign={"center"}>
-               Series
-                <Typography variant="body1" textAlign={"center"}>
+              <Typography
+                fontSize={"40px"}
+                lineHeight={"72px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
+                Series
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"14px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
                   Stage{" "}
                 </Typography>
               </Typography>
-              <Box padding={"5px"} margin={"2px"} my={5} border={"1px solid #545454"}>
-                <Typography variant="body2" textAlign={'center'}>TALK TO AN EXPERT</Typography>
-              </Box>
+              <Button
+                variant="outlined"
+                sx={{
+                  "&:hover": {
+                    background: "#ff8c22",
+                    color:'#ffff',
+                    borderColor:'#ff8c22'
+                  },
+                  fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",
+                  width: "100%",
+                  height: "33px",
+                  borderRadius: "0",
+                  color:'#212121',
+                  borderColor:'#212121',
+                  my:5
+                }}
+              >
+                Talk to an expert
+              </Button>
               <Box sx={{ display: "flex", gap: 1 }}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
@@ -194,10 +293,6 @@ const PricingComparision = () => {
               </Box>
             </Box>
           </Grid>
-
-         
-
-          
         </Grid>
       </Box>
       {/* <Box px={15} bgcolor={"#f1f1f1"}>

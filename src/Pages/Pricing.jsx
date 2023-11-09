@@ -1,14 +1,15 @@
-import React from 'react'
-import MainSection from '../components/Pricing/MainSection'
-import PricingComparision from '../components/Pricing/PricingComparision'
+import React from "react";
+
+import PricingComparision from "../components/Pricing/PricingComparision";
+import MainSection from "../components/MainSection";
 
 const Pricing = () => {
   return (
     <div>
-    <MainSection/>
-    <PricingComparision/>
+      <MainSection routeName={"Pricing"} />
+      <PricingComparision />
     </div>
-  )
-}
+  );
+};
 
-export default Pricing
+export default Pricing;

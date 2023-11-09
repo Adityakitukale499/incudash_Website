@@ -18,13 +18,13 @@ export default function Cards() {
           <img
             src="startup1.png"
             
-            style={{ width: 50 }}
+            style={{ width: "42px" , height : '42px' }}
           />
-          <Typography variant="h6" sx={{ fontWeight: 600,my:1 }}  gutterBottom>
+          <Typography variant="h6" sx={{  fontWeight: 700, fontFamily : 'Raleway ,sans-serif' , fontSize : "20px" }}  gutterBottom color={"#545454"} >
             Startup Story
           </Typography>
 
-          <Typography variant="body2">
+          <Typography variant="body2" color={"#545454"} sx={{  fontWeight: 400, fontFamily : 'Open Sans ,sans-serif' , fontSize : "14px" }} >
             Investors Invest in compelling stories and your pitch deck is a
             vehicle for telling the story you want to tell.
           </Typography>
@@ -39,13 +39,13 @@ export default function Cards() {
         <CardContent>
           <img
             src="startup2.png"
-            style={{ width: 50 }}
+            style={{ width: "42px" , height : '42px' }}
           />
-          <Typography variant="h6" sx={{ fontWeight: 600,my:1 }} gutterBottom>
+          <Typography variant="h6" sx={{  fontWeight: 700, fontFamily : 'Raleway ,sans-serif' , fontSize : "20px" , my: 1 }} color={"#545454"}  gutterBottom>
           Financial Projections
           </Typography>
 
-          <Typography variant="body2">
+          <Typography variant="body2" color={"#545454"} sx={{  fontWeight: 400, fontFamily : 'Open Sans ,sans-serif' , fontSize : "14px"  }}>
           Financial Projections & Valuations complete
 an Investment Pitch or Business Plan.
 Without right numbers there is high chance
@@ -61,13 +61,13 @@ of rejection.
         <CardContent>
           <img
             src="startup3.png"
-            style={{ width: 50 }}
+            style={{ width: "42px" , height : '42px' }}
           />
-          <Typography variant="h6" sx={{ fontWeight: 600,my:1 }} gutterBottom>
+          <Typography variant="h6"sx={{  fontWeight: 700, fontFamily : 'Raleway ,sans-serif' , fontSize : "20px" , my:1 }}  color={"#545454"}gutterBottom>
           Fundraising
           </Typography>
 
-          <Typography variant="body2">
+          <Typography variant="body2" color={"#545454"} sx={{  fontWeight: 400, fontFamily : 'Open Sans ,sans-serif' , fontSize : "14px" }}>
           Good Investors are those that add value to
 your startup than just put capital and wait
 for returns. Hence, we bridge the gap!

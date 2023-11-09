@@ -17,11 +17,11 @@ const Contact = () => {
 
   return (
     <Box sx={{py:5}}>
-      <Typography variant="h4" fontWeight={600} textAlign={"center"} mt={4}>
+      <Typography variant="h4" sx={{fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "32px" }} color={"#000000"} textAlign={"center"} mt={4}>
         Get in touch
       </Typography>
 
-      <Typography variant="h6" textAlign={"center"}>
+      <Typography variant="h6" textAlign={"center"} sx={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}>
         Let us know how we can help
       </Typography>
 
@@ -35,13 +35,15 @@ const Contact = () => {
               textAlign: "left",
             }}
           >
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>Name</label>
             <input
               style={{
                 marginTop: "8px",
                 width: "100%",
                 padding: 8,
                 fontSize: 15,
+                border : "1px solid #000000",
+                bgcolor : "#FFFFFF"
               }}
               placeholder="Your full name"
               type="text"
@@ -63,13 +65,15 @@ const Contact = () => {
               marginTop: "4px",
             }}
           >
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>Email</label>
             <input
               style={{
                 marginTop: "8px",
                 width: "100%",
                 padding: 8,
                 fontSize: 15,
+                border : "1px solid #000000",
+                bgcolor : "#FFFFFF"
               }}
               placeholder="me@company.com"
               type="text"
@@ -91,7 +95,7 @@ const Contact = () => {
               marginTop: "4px",
             }}
           >
-            <label htmlFor="name">Message</label>
+            <label htmlFor="name" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} >Message</label>
             <textarea
               style={{
                 marginTop: "8px",
@@ -99,6 +103,8 @@ const Contact = () => {
                 padding: 8,
                 fontSize: 15,
                 maxWidth: "100%",
+                border : "1px solid #000000",
+                bgcolor : "#FFFFFF"
               }}
               placeholder="Your message..."
               type="text"

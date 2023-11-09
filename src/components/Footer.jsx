@@ -29,7 +29,7 @@ const Footer = () => {
           justifyContent={"center"}
           textAlign={"center"}
         >
-          <Typography
+          {/* <Typography
             variant="h6"
             fontWeight={800}
             height={50}
@@ -40,7 +40,8 @@ const Footer = () => {
             <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
               to pitch
             </Typography>
-          </Typography>
+          </Typography> */}
+          <img src="easytopitchLogo.png" alt="companyLogo" height={50} style={{margin:'25px 0'}}/>
         </Grid>
 
         <Grid item xs={12} lg={7.5}>
@@ -52,10 +53,10 @@ const Footer = () => {
             }}>
             <Grid item lg={4} xs={5.5} sx={{display:'flex', justifyContent:'center'}}>
             <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Contact Us
               </Typography>
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 Toll-Free: 18003099044 <br />
                 Email: info@easytopitch.com <br />
                 <FacebookIcon />
@@ -66,11 +67,11 @@ const Footer = () => {
             </Grid>
             <Grid item lg={2.6} xs={6.5}sx={{display:'flex', justifyContent:'center'}}>
             <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 ABOUT
               </Typography>
 
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 One stop solution <br />
                 for pitching.We <br />
                 make founders <br />
@@ -82,11 +83,11 @@ const Footer = () => {
             </Grid>
             <Grid item lg={2.6} xs={5.5}sx={{display:'flex', justifyContent:'center'}}>
             <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Our Services
               </Typography>
 
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 Pitch Deck <br />
                 Business <br />
                 Plan <br />
@@ -100,10 +101,10 @@ const Footer = () => {
             </Grid>
             <Grid item lg={2.6} xs={5.5}sx={{display:'flex', justifyContent:'center'}}>
             <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Useful Links
               </Typography>
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 Home <br />
                 About Us <br />
                 Our Services <br />
@@ -196,7 +197,7 @@ const Footer = () => {
           display: "flex",
           justifyContent: "center",
           textAlign: "center",
-          marginTop:50
+          marginTop:40
         }}
       >
         Copyright &copy; 2023&nbsp;

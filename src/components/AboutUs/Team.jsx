@@ -102,9 +102,6 @@
 
 // export default Team;
 
-
-
-
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 
@@ -129,7 +126,7 @@ const Team = () => {
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
-        px={20}
+        px={{lg:20,md:15,xs:5}}
         pb={20}
        
       >

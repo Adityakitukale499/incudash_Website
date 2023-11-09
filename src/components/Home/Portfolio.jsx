@@ -21,14 +21,14 @@ const Portfolio = () => {
         Our Partners
       </Typography>
 
-      <Grid container mb={7} gap={2}>
+      <Grid container mb={7} mx={10}  gap={15}>
         <Grid
           item
           xs={12}
-          lg={7}
+          lg={5}
           sx={{
             display: "flex ",
-            justifyContent: "center",
+            justifyContent: {lg:"end",xs:'center'},
             alignItems: "center",
           }}
         >
@@ -53,15 +53,15 @@ const Portfolio = () => {
         <Grid
           item
           xs={12}
-          lg={2}
+          lg={5}
           sx={{
             display: "flex ",
-            justifyContent: "center",
+            justifyContent: {lg:"start",xs:'center'},
             alignItems: "center",
           }}
         >
-          <Box sx={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-            <img src="company2.png" width={'85%'}/>
+          <Box>
+            <img src="company2.png" style={{width:'95%'}}/>
           </Box>
         </Grid>
       </Grid>

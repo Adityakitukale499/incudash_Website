@@ -13,14 +13,13 @@ const Funds = () => {
         }}
       >
         <Grid container sx={{ width: "75%" }} gap={5}>
-          <Grid item xs={12} lg={5}>
+          <Grid item xs={12} lg={5.5}>
             <img src="funded.jpg" style={{ width: "100%" }} />
           </Grid>
 
-          <Grid item xs={12} lg={6.5}>
+          <Grid item xs={12} lg={6}>
             <Box>
               <Typography
-                variant="h5"
                 sx={{
                   fontFamily: "Montserrat",
                   fontWeight: 500,
@@ -34,7 +33,6 @@ const Funds = () => {
 
               <br />
               <Typography
-                variant="body1"
                 sx={{
                   // mb: 1,
                   fontFamily: "Montserrat",
@@ -45,12 +43,11 @@ const Funds = () => {
                 color={"#444444"}
               >
                 A right investor is the one who not only provides you money but
-                also <br /> adds value to your startup. Now, it's time to meet
+                also  adds value to your startup. Now, it's time to meet
                 your right investors.
               </Typography>
               <br />
               <Typography
-                variant="body1"
                 sx={{
                   // mb: 1,
                   fontFamily: "Montserrat",
@@ -61,12 +58,11 @@ const Funds = () => {
                 color={"#444444"}
               >
                 Let us help you connect to the well known investors where we
-                commit <br /> that we will share a pitch ready startup and
-                hence, ensuring there is no <br /> rejection.
+                commit  that we will share a pitch ready startup and
+                hence, ensuring there is no rejection.
               </Typography>
-              <br />
+              
               <Typography
-                variant="body1"
                 sx={{
                   fontFamily: "Montserrat",
                   fontWeight: 400,
@@ -76,12 +72,11 @@ const Funds = () => {
                 color={"#444444"}
               >
                 So, stop your struggle here. Let us help you get funded and we
-                won't <br /> charge anything before you successfully raise
+                won't charge anything before you successfully raise
                 funds.
               </Typography>
               <br />
               <Typography
-                variant="body1"
                 sx={{
                   fontFamily: "Montserrat",
                   fontWeight: 400,

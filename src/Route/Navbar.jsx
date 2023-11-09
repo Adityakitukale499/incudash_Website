@@ -169,12 +169,14 @@ function Navbar() {
         {/* <div className="brand-logo-name">
           <h1>Easy to Pitch</h1>
         </div> */}
-        <Typography variant="h6" fontWeight={800} height={'40px'} width={'63px'} mt={1} bgcolor={"white"}>
+        {/* <Typography variant="h6" fontWeight={800} height={'40px'} width={'63px'} mt={1} bgcolor={"white"}>
           Easy
           <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
             to pitch
           </Typography>
-        </Typography>
+        </Typography> */}
+        <img src="easytopitchLogo.png" alt="logo" style={{marginTop:10}}/>
+
       </span>
       <div href="#" className="toggle-button" onClick={Click}>
         <span className="bar"></span>

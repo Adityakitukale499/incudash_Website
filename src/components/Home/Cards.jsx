@@ -11,7 +11,7 @@ export default function Cards() {
   return (
     <Box sx={{ mx: 10 }}>
       <Grid container spacing={0} sx={{ m: 0, display:'flex', justifyContent:'center' }}>
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} lg={4} display={'flex'} justifyContent={'center'}>
           <Card
             sx={{
               width: {
@@ -63,7 +63,7 @@ export default function Cards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} lg={4} display={'flex'} justifyContent={'center'}>
           <Card
             sx={{
               width: {
@@ -113,7 +113,7 @@ export default function Cards() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} lg={4} display={'flex'} justifyContent={'center'}>
           <Card
             sx={{
               width: {

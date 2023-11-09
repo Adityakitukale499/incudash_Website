@@ -4,7 +4,7 @@ import React from "react";
 const Portfolio = () => {
   return (
     <>
-      <Typography variant="h6" sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
+      <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
         Our Portfolio
       </Typography>
      
@@ -14,18 +14,17 @@ const Portfolio = () => {
       </Box>
 
       <Typography
-        variant="h6"
         my={10}
         sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}
       >
         Our Partners
       </Typography>
 
-      <Grid container mb={7} mx={10}  gap={15}>
+      <Grid container mb={7} mx={0}  gap={10}>
         <Grid
           item
           xs={12}
-          lg={5}
+          lg={5.5}
           sx={{
             display: "flex ",
             justifyContent: {lg:"end",xs:'center'},

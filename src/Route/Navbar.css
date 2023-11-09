@@ -71,6 +71,7 @@ header {
   padding: 0 1rem;
   font-size: 14px;
   font-weight: 400;
+  font-family: 'Montserrat';
 }
 .main-nav span:hover {
   color: #ff8c22;

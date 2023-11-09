@@ -10,6 +10,9 @@
 
 
   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
   :root {
 
     --primary-color: #ff8c22 /* A green shade for primary actions */

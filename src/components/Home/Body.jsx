@@ -7,19 +7,19 @@ const Body = () => {
   return (
     <Box sx={{ display: "flex", justifyContent: "center",my:10,color:'#212121' }}>
     <Grid container  sx ={{width : "75%"}}  >
-    <Grid item xs = {12} lg = {4} >
+    <Grid item xs = {12} lg = {4.8} sx={{display: "flex", justifyContent: "center", alignItems:'center'}} >
     <img
           src= "Top_Lapy.png"
-          style={{ width : "320px" , height: "230px"}}
+          style={{ width :'80%',maxWidth: "320px" , height: "230px"}}
         />
 
     </Grid>
 
-    <Grid item xs = {12} lg = {8} >
+    <Grid item xs = {12} lg = {7} >
 
     <Box  gap={"24px"} >
           <Typography variant="h4" sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }}>
-            Let us be a part of your startup <br/>
+            Let us be a part of your startup 
             journey!
           </Typography>
           <Typography variant="body1" sx={{ my: 1 , fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "14px" }}>

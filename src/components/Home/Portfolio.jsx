@@ -21,7 +21,7 @@ const Portfolio = () => {
         Our Partners
       </Typography>
 
-      <Grid container mb={7}>
+      <Grid container mb={7} gap={2}>
         <Grid
           item
           xs={12}
@@ -60,8 +60,8 @@ const Portfolio = () => {
             alignItems: "center",
           }}
         >
-          <Box>
-            <img src="company2.png" />
+          <Box sx={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+            <img src="company2.png" width={'85%'}/>
           </Box>
         </Grid>
       </Grid>

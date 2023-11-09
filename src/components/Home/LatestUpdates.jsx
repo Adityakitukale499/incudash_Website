@@ -6,11 +6,11 @@ export const LatestUpdates = () => {
     <>
       <Box
         textAlign={"center"}
-        // px={{
-        //   lg: 10,
-        //   md: 5,
-        //   sm: 2,
-        //   xs: 0}}
+        px={{
+          lg: 15,
+          md: 5,
+          sm: 2,
+          xs: 2}}
         justifyContent={"center"}
         bgcolor={"#F5F7FA"}
         color={'#212121'}

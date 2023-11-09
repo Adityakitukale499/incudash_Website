@@ -9,28 +9,28 @@ const Achievment = () => {
       >
         <Grid
           container
-          spacing={3}
+          // gap={2}
           sx={{
             p: 10,
             textAlign: "center",
             bgcolor: "#F5F7FA",
             // px: 20,
             color: "#212121",
+            display: "flex", justifyContent: "center", textAlign: "center" 
           }}
         >
-          <Grid item lg={2.4} xs={10}>
+          <Grid item lg={2.4} xs={10} sx={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
             <Typography
-              variant="h3"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "40px",
+                textAlign:'center'
               }}
             >
               500+
             </Typography>
             <Typography
-              variant="body2"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",

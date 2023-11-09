@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <Box sx={{my:12, color:'#212121'}}>
+    <Box sx={{my:5, color:'#212121'}}>
       <Typography textAlign={"center"} color={"#000000"} variant="h4" mb={2} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }} >
         Our Services
       </Typography>

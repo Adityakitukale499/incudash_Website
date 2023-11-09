@@ -5,7 +5,7 @@ const Fund = () => {
   return (
     <Box sx={{ display: "flex", justifyContent: "center", color:'#545454' }}>
       <Grid container sx={{ width: "80%",gap:5 }}>
-        <Grid item xs={12} lg={3.8}>
+        <Grid item xs={12} lg={3.8} display={"flex"} flexDirection={"column"} justifyContent={"center"} alignItems={"center"}>
           <Box display={"flex"} flexDirection={"column"} justifyContent={"center"} alignItems={"center"} 
             sx={{
               bgcolor: "#ff8c22",
@@ -44,7 +44,7 @@ const Fund = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} lg={7.5}>
+        <Grid item xs={12} lg={7.5} display={"flex"} flexDirection={"column"} justifyContent={"center"} alignItems={"center"}>
           <Box sx={{ p: 1, px: 3 }}>
             <Typography mb= {1} variant="h4" sx={{ fontWeight: 500 , fontFamily: 'Raleway' , fontSize : "40px", color: "#444444"  }}>
               Looking for funds?

@@ -10,11 +10,14 @@ import { Grid } from "@mui/material";
 export default function Cards() {
   return (
     <Box sx={{ mx: 10 }}>
-      <Grid container spacing={0} sx={{ m: 5 }}>
+      <Grid container spacing={0} sx={{ m: 0, display:'flex', justifyContent:'center' }}>
         <Grid item xs={12} lg={4}>
           <Card
             sx={{
-              maxWidth: "80%",
+              width: {
+                lg:"85%",
+                xs:'100%'
+              },
               my: 1,
               py: 3,
               color: "grey",
@@ -32,6 +35,7 @@ export default function Cards() {
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
+                  // my:1
                 }}
                 gutterBottom
                 color={"#545454"}
@@ -62,7 +66,10 @@ export default function Cards() {
         <Grid item xs={12} lg={4}>
           <Card
             sx={{
-              maxWidth: "80%",
+              width: {
+                lg:"85%",
+                xs:'100%'
+              },
               my: 1,
               py: 3,
               color: "grey",
@@ -80,7 +87,7 @@ export default function Cards() {
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
-                  my: 1,
+                  // my: 1,
                 }}
                 color={"#545454"}
                 gutterBottom
@@ -95,6 +102,7 @@ export default function Cards() {
                   fontWeight: 400,
                   fontFamily: "Open Sans ,sans-serif",
                   fontSize: "14px",
+                  height: 85, overflowY: "scroll"
                 }}
               >
                 Financial Projections & Valuations complete an Investment Pitch
@@ -108,7 +116,10 @@ export default function Cards() {
         <Grid item xs={12} lg={4}>
           <Card
             sx={{
-              maxWidth: "80%",
+              width: {
+                lg:"85%",
+                xs:'100%'
+              },
               my: 1,
               py: 3,
               color: "grey",
@@ -126,7 +137,7 @@ export default function Cards() {
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
-                  my: 1,
+                  // my: 1,
                 }}
                 color={"#545454"}
                 gutterBottom
@@ -141,9 +152,15 @@ export default function Cards() {
                   fontWeight: 400,
                   fontFamily: "Open Sans ,sans-serif",
                   fontSize: "14px",
+                  height: 85, overflowY: "scroll"
                 }}
               >
                 Good Investors are those that add value to your startup than
+                just put capital and wait for returns. Hence, we bridgr startup than
+                just put capital and wait for returns. Hence, we bridgr startup than
+                just put capital and wait for returns. Hence, we bridgr startup than
+                just put capital and wait for returns. Hence, we bridgr startup than
+                just put capital and wait for returns. Hence, we bridgr startup than
                 just put capital and wait for returns. Hence, we bridge the gap!
               </Typography>
             </CardContent>

@@ -21,8 +21,6 @@ header {
   /* height: 80px; */
 /* } */
 
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 * {
   box-sizing: border-box;
@@ -30,11 +28,10 @@ header {
   margin: 0;
 }
 
-
 header {
-  background-color:#FFFFFF;
-  min-height: 3.4rem;
- position: relative;
+  background-color: #ffffff;
+  min-height: 4rem;
+  position: relative;
   padding: 0 10vw;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
@@ -60,7 +57,7 @@ header {
 }
 .main-nav ul {
   display: flex;
-  margin:0;
+  margin: 0;
   padding: auto;
   list-style: none;
 }
@@ -71,7 +68,7 @@ header {
   padding: 0 1rem;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 .main-nav span:hover {
   color: #ff8c22;
@@ -109,17 +106,17 @@ header {
     align-items: flex-start;
   }
   .main-nav ul {
-    width: 90vw;
-    /* position: absolute; */
+    width: 95vw;
+    position: absolute;
     flex-direction: column;
     align-items: center;
     display: none;
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
   }
   .main-nav li {
     padding: 0.6rem 0;
   }
-  .main-nav a {
+  .main-nav span {
     padding: 0;
   }
   .main-nav ul.active {

@@ -107,7 +107,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -126,7 +126,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -145,7 +145,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -164,7 +164,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -183,7 +183,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -221,7 +221,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}
@@ -259,7 +259,7 @@ const Body = () => {
                   sx={{
                     fontFamily: "Poppins",
                     fontWeight: 500,
-                    fontSize: "16px",
+                    fontSize: "14px",
                     lineHeight: "19.61px",
                     color: "#141717C",
                   }}

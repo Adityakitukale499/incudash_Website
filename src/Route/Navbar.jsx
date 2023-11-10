@@ -34,7 +34,7 @@
 //             <NavLink
 //               to="/"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Home</span>
@@ -45,7 +45,7 @@
 //             <NavLink
 //               to="/aboutus"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>About Us</span>
@@ -56,7 +56,7 @@
 //             <NavLink
 //               to="/ourservices"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Our Services</span>
@@ -67,7 +67,7 @@
 //             <NavLink
 //               to="/getfunded"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Get Funded</span>
@@ -79,7 +79,7 @@
 //             <NavLink
 //               to="/videopitch"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Video Pitch</span>
@@ -90,7 +90,7 @@
 //             <NavLink
 //               to="/investors"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Investors</span>
@@ -101,7 +101,7 @@
 //           <NavLink
 //               to="/blogs"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Blogs</span>
@@ -112,7 +112,7 @@
 //           <NavLink
 //               to="/pricing"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <span>Pricing</span>
@@ -123,7 +123,7 @@
 //           <NavLink
 //               to="/contactus"
 //               style={({ isActive }) => ({
-//                 color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+//                 color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
 //               })}
 //             >
 //               <Button
@@ -166,16 +166,15 @@ function Navbar() {
   return (
     <header className="main-header">
       <span href="index.html" className="brand-logo">
-        {/* <div className="brand-logo-name">
-          <h1>Easy to Pitch</h1>
-        </div> */}
+        <div className="brand-logo-name">
+        </div>
         {/* <Typography variant="h6" fontWeight={800} height={'40px'} width={'63px'} mt={1} bgcolor={"white"}>
           Easy
           <Typography variant="body2" fontWeight={600} bgcolor={"white"}>
             to pitch
           </Typography>
-        </Typography> */}
-        <img src="easytopitchLogo.png" alt="logo" style={{marginTop:10}}/>
+  </Typography>*/}
+        <img src="easytopitchLogo.png" alt="logo" style={{marginTop:10}}/> 
 
       </span>
       <div href="#" className="toggle-button" onClick={Click}>
@@ -188,8 +187,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Home</span>
@@ -199,8 +199,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/aboutus"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>About Us</span>
@@ -210,8 +211,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/ourservices"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Our Services</span>
@@ -221,8 +223,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/getfunded"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Get Funded</span>
@@ -233,8 +236,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/videopitch"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Video Pitch</span>
@@ -244,8 +248,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/investors"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Investors</span>
@@ -255,8 +260,9 @@ function Navbar() {
           <li>
           <NavLink
               to="/blogs"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Blogs</span>
@@ -266,8 +272,9 @@ function Navbar() {
           <li>
           <NavLink
               to="/pricing"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
               <span>Pricing</span>
@@ -277,22 +284,11 @@ function Navbar() {
           <li>
           <NavLink
               to="/contactus"
+              onClick={Click}
               style={({ isActive }) => ({
-                color: isActive ? "orange" : "#545454",height:'69px',textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
+                color: isActive ? "orange" : "#545454",textDecoration:'none',display:'flex',justifyContent:'center',alignItems:'center'
               })}
             >
-              {/* <Button
-                variant="contained"
-                sx={{
-                  "&:hover": {
-                    background: "#ff8c22",
-                  },
-                  bgcolor: "orange",
-                  mt: -1,
-                }}
-              >
-                
-              </Button> */}
               <Button variant="contained" sx={{'&:hover': {
                 background:'#ff8c22'
            },fontFamily : 'Montserrat ,sans-serif ' , fontWeight: 500 , fontSize:"12px" , width: "107px", height : "33px", borderRadius : "0" ,

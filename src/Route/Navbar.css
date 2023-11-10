@@ -57,9 +57,10 @@ header {
 }
 .main-nav ul {
   display: flex;
-  margin: 0;
-  padding: auto;
+  /* padding: 15px 0; */
+  /* padding: auto; */
   list-style: none;
+  margin-top: 15px;
 }
 
 .main-nav span {
@@ -69,6 +70,8 @@ header {
   font-size: 14px;
   font-weight: 400;
   font-family: "Montserrat";
+  margin-top: 5px;
+  /* height: 69px; */
 }
 .main-nav span:hover {
   color: #ff8c22;
@@ -105,21 +108,29 @@ header {
     flex-direction: column;
     align-items: flex-start;
   }
+  /* .main-nav{
+     margin: 0 20px; 
+  } */
   .main-nav ul {
-    width: 95vw;
+    width: 90vw;
     position: absolute;
     flex-direction: column;
     align-items: center;
     display: none;
     background-color: #FFFFFF;
+    margin-top: 0;
+    /* z-index: 9999; */
   }
   .main-nav li {
-    padding: 0.6rem 0;
+    padding: 0.5rem 0;
   }
   .main-nav span {
     padding: 0;
+    height: 18px;
+    margin-top: 0;
   }
   .main-nav ul.active {
     display: flex;
+    /* justify-content: center; */
   }
 }

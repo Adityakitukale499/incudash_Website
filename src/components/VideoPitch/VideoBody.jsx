@@ -39,9 +39,9 @@ const VideoBody = () => {
                 
                 sx={{ fontFamily : "Open Sans" , fontWeight: 400, fontSize:"15px" , '&:hover': {
                   outline:'#ff8c22',
-                  border:'1.5px solid #ff8c22',
+                  border:'1px solid #ff8c22',
              }
-                , color: '#ff8c22', borderColor: "orange", mt: 2 }}
+                , color: '#ff8c22', borderColor: "#ff8c22", mt: 2 }}
               >
                 Call Us
               </Button>

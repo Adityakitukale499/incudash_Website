@@ -51,7 +51,7 @@ const Footer = () => {
               sm: 0,
               xs: 0,
             }}>
-            <Grid item lg={4} xs={5.5} sx={{display:'flex', justifyContent:'center'}}>
+            <Grid item lg={4} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
             <Box>
               <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Contact Us
@@ -65,7 +65,7 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={6.5}sx={{display:'flex', justifyContent:'center'}}>
+            <Grid item lg={2.6} xs={5.5}  mb={2} sx={{display:'flex', justifyContent:'center'}}>
             <Box>
               <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 ABOUT
@@ -81,7 +81,7 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={5.5}sx={{display:'flex', justifyContent:'center'}}>
+            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
             <Box>
               <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Our Services
@@ -99,7 +99,7 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={5.5}sx={{display:'flex', justifyContent:'center'}}>
+            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
             <Box>
               <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Useful Links
@@ -197,7 +197,7 @@ const Footer = () => {
           display: "flex",
           justifyContent: "center",
           textAlign: "center",
-          marginTop:40
+          marginTop:20
         }}
       >
         Copyright &copy; 2023&nbsp;

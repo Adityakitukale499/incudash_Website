@@ -9,13 +9,14 @@ import { Grid } from "@mui/material";
 
 export default function Cards() {
   return (
-    <Box sx={{ m: 15 }}>
+    <Box sx={{ m: {lg:15,md:8,xs:4} }}>
       <Grid container spacing={0} sx={{ m: 0, display:'flex', justifyContent:'center' }}>
         <Grid item xs={12} lg={4} display={'flex'} justifyContent={'center'}>
           <Card
             sx={{
               width: {
                 lg:"85%",
+                md:'100%',
                 xs:'100%'
               },
               my: 1,

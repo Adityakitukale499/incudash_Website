@@ -9,7 +9,7 @@ const Achievment = () => {
       >
         <Grid
           container
-          // gap={2}
+          gap={2}
           sx={{
             p: 10,
             textAlign: "center",
@@ -19,17 +19,17 @@ const Achievment = () => {
             display: "flex", justifyContent: "center", textAlign: "center" 
           }}
         >
-          <Grid item lg={2.4} xs={10} sx={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
+          <Grid item lg={2.1} xs={10}>
             <Typography
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "40px",
-                textAlign:'center'
+                // textAlign:'center'
               }}
             >
               500+
-            </Typography>
+              </Typography>
             <Typography
               sx={{
                 fontWeight: 400,
@@ -40,9 +40,8 @@ const Achievment = () => {
               Startup Served
             </Typography>
           </Grid>
-          <Grid item lg={2.4} xs={10}>
+          <Grid item lg={2.1} xs={10}>
             <Typography
-              variant="h3"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
@@ -52,7 +51,6 @@ const Achievment = () => {
               5000+
             </Typography>
             <Typography
-              variant="body2"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",
@@ -62,9 +60,8 @@ const Achievment = () => {
               Decks Reviewed
             </Typography>
           </Grid>
-          <Grid item lg={2.4} xs={10}>
+          <Grid item lg={2.1} xs={10}>
             <Typography
-              variant="h3"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
@@ -74,7 +71,6 @@ const Achievment = () => {
               200+
             </Typography>
             <Typography
-              variant="body2"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",
@@ -84,9 +80,8 @@ const Achievment = () => {
               Ecosystem Partners
             </Typography>
           </Grid>
-          <Grid item lg={2.4} xs={10}>
+          <Grid item lg={2.1} xs={10}>
             <Typography
-              variant="h3"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
@@ -96,7 +91,6 @@ const Achievment = () => {
               1000+
             </Typography>
             <Typography
-              variant="body2"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",
@@ -106,9 +100,8 @@ const Achievment = () => {
               Founders Gromed
             </Typography>
           </Grid>
-          <Grid item lg={2.4} xs={10}>
+          <Grid item lg={2.1} xs={10}>
             <Typography
-              variant="h3"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
@@ -118,7 +111,6 @@ const Achievment = () => {
               21+
             </Typography>
             <Typography
-              variant="body2"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",

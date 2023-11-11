@@ -16,12 +16,23 @@ const GetinTouch = () => {
   };
 
   return (
-    <Box sx={{py:5}}>
-      <Typography variant="h4" sx={{fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "32px" }} color={"#000000"} textAlign={"center"} mt={4}>
+    <Box sx={{ py: 5 }}>
+      <Typography
+        variant="h4"
+        sx={{ fontWeight: 700, fontFamily: "Montserrat", fontSize: "32px" }}
+        color={"#000000"}
+        textAlign={"center"}
+        mt={4}
+      >
         Get in touch
       </Typography>
 
-      <Typography variant="h6" textAlign={"center"} sx={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}>
+      <Typography
+        variant="h6"
+        textAlign={"center"}
+        sx={{ fontWeight: 400, fontFamily: "Montserrat", fontSize: "18px" }}
+        color={"#000000"}
+      >
         Let us know how we can help
       </Typography>
 
@@ -35,15 +46,25 @@ const GetinTouch = () => {
               textAlign: "left",
             }}
           >
-            <label htmlFor="name" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>Name</label>
+            <label
+              htmlFor="name"
+              style={{
+                fontWeight: 400,
+                fontFamily: "Montserrat",
+                fontSize: "14px",
+              }}
+              color={"#000000"}
+            >
+              Name
+            </label>
             <input
               style={{
                 marginTop: "8px",
                 width: "100%",
                 padding: 8,
                 fontSize: 15,
-                border : "1px solid #000000",
-                bgcolor : "#FFFFFF"
+                border: "1px solid #000000",
+                bgcolor: "#FFFFFF",
               }}
               placeholder="Your full name"
               type="text"
@@ -65,15 +86,25 @@ const GetinTouch = () => {
               marginTop: "4px",
             }}
           >
-            <label htmlFor="email" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"}>Email</label>
+            <label
+              htmlFor="email"
+              style={{
+                fontWeight: 400,
+                fontFamily: "Montserrat",
+                fontSize: "14px",
+              }}
+              color={"#000000"}
+            >
+              Email
+            </label>
             <input
               style={{
                 marginTop: "8px",
                 width: "100%",
                 padding: 8,
                 fontSize: 15,
-                border : "1px solid #000000",
-                bgcolor : "#FFFFFF"
+                border: "1px solid #000000",
+                bgcolor: "#FFFFFF",
               }}
               placeholder="me@company.com"
               type="text"
@@ -95,7 +126,17 @@ const GetinTouch = () => {
               marginTop: "4px",
             }}
           >
-            <label htmlFor="name" style={{fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} >Message</label>
+            <label
+              htmlFor="name"
+              style={{
+                fontWeight: 400,
+                fontFamily: "Montserrat",
+                fontSize: "14px",
+              }}
+              color={"#000000"}
+            >
+              Message
+            </label>
             <textarea
               style={{
                 marginTop: "8px",
@@ -103,8 +144,8 @@ const GetinTouch = () => {
                 padding: 8,
                 fontSize: 15,
                 maxWidth: "100%",
-                border : "1px solid #000000",
-                bgcolor : "#FFFFFF"
+                border: "1px solid #000000",
+                bgcolor: "#FFFFFF",
               }}
               placeholder="Your message..."
               type="text"
@@ -120,11 +161,14 @@ const GetinTouch = () => {
           </div>
           <Button
             variant="contained"
-            sx={{ 
-              '&:hover': {
-                background:'#ff8c22'
-           }
-              ,bgcolor: "orange", width: "100%", mt: 2 }}
+            sx={{
+              "&:hover": {
+                background: "#ff8c22",
+              },
+              bgcolor: "orange",
+              width: "100%",
+              mt: 2,
+            }}
           >
             Send Message
           </Button>

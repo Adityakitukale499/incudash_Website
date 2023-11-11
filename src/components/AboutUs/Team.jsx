@@ -155,7 +155,7 @@ const Team = () => {
                
               </Box>
               <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'14px', lineHeight:'21px', textAlign:'center',
-                  fontStyle:'italic', color:'#aaaaaa'}} height={"230px"}  overflowY= {"scroll"} >
+                  fontStyle:'italic', color:'#aaaaaa', height:'230px', overflowY:'scroll'}} >
                 She is a Mentor of Change at AIM, NITI Aayog Recognized with
                 Indian Women Excellence and Leadership Award 2019 in E Commerce
                 also Recognized with Women Excellence Award for Easy To Pitch in
@@ -189,7 +189,7 @@ const Team = () => {
                
               </Box>
               <Typography sx={{fontFamily:'Open Sans', fontWeight:400, fontSize:'14px', lineHeight:'21px', textAlign:'center',
-                  fontStyle:'italic', color:'#aaaaaa'}} height={"230px"}  overflowY= {"scroll"}>
+                  fontStyle:'italic', color:'#aaaaaa', height:'230px', overflowY:'scroll'}} >
                 Nikhil is a strategy and finance expert, post graduated from IM
                 Udaipur. He is also an angel investor and has invested in
                 startups like Fitspire. He is always most concerned about the

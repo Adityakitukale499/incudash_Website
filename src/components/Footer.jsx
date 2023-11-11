@@ -52,7 +52,7 @@ const Footer = () => {
               xs: 0,
             }}>
             <Grid item lg={4} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
-            <Box>
+            <Box sx={{textAlign:'start',pl:8}}>
               <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Contact Us
               </Typography>
@@ -65,9 +65,9 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={5.5}  mb={2} sx={{display:'flex', justifyContent:'center'}}>
-            <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
+            <Grid item lg={2.6} xs={5.5}  mb={2} sx={{display:'flex', justifyContent:'center'}} >
+            <Box sx={{textAlign:'start', pl:5}}>
+              <Typography color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 ABOUT
               </Typography>
 
@@ -81,13 +81,13 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
-            <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
+            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}} >
+            <Box sx={{textAlign:'start'}}>
+              <Typography  color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Our Services
               </Typography>
 
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
+              <Typography  sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 Pitch Deck <br />
                 Business <br />
                 Plan <br />
@@ -99,12 +99,12 @@ const Footer = () => {
               </Typography>
             </Box>
             </Grid>
-            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}}>
-            <Box>
-              <Typography variant="body1" color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
+            <Grid item lg={2.6} xs={5.5} mb={2} sx={{display:'flex', justifyContent:'center'}} >
+            <Box sx={{textAlign:'start'}}>
+              <Typography  color={"#FF8C22"} sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'14px',lineHeight:'21px',mb:1}}>
                 Useful Links
               </Typography>
-              <Typography variant="body1" sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
+              <Typography sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'28px'}}>
                 Home <br />
                 About Us <br />
                 Our Services <br />

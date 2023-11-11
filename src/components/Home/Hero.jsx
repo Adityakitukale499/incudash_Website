@@ -27,7 +27,7 @@ const Hero = () => {
               justifyContent: "space-between",
               flexDirection: "column",
               color: "#212121",
-              
+              maxWidth:'565px'
             }}
           >
             <Typography
@@ -43,21 +43,21 @@ const Hero = () => {
                 },
               }}
             >
-              We'll make you <br />
-              and your startup <br />
+              We'll make you 
+              and your startup 
               investment ready
             </Typography>
             <Typography
               variant="h6"
               sx={{
-                my: 2,
+                mt: 2,
                 fontFamily: "Montserrat ,sans-serif ",
                 fontWeight: 400,
                 fontSize: "18px",
+                display:{lg:'block',xs:'none'}
               }}
             >
-              Easy to Pitch is India's first AI platform for founders to become{" "}
-              <br />
+              Easy to Pitch is India's first AI platform for founders to become
               investment ready.
             </Typography>
 
@@ -67,6 +67,7 @@ const Hero = () => {
                 "&:hover": {
                   background: "#ff8c22",
                 },
+                mt:2,
                 fontFamily: "Montserrat ,sans-serif ",
                 fontWeight: 500,
                 fontSize: "12px",

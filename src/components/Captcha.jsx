@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 export default ({ enterValid, setValidateCaptcha }) => {
-  const SECURITY_CODE_LENGTH = 4;
+  const lengthOfCaptcha = 4;
+  const SECURITY_CODE_LENGTH = lengthOfCaptcha;
   const [values, setValues] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [securityCode, setSecurityCode] = useState("");
@@ -35,19 +36,17 @@ export default ({ enterValid, setValidateCaptcha }) => {
   };
 
   const onChange = (event) => {
-    const { target } = event;
-    const { name, value } = target;
-
+    const { value } = event.target;
     event.persist();
     setValues(value);
     console.log(value);
     setTimeout(() => {
       if (value !== securityCode) {
-        if (value.length >= 4) {
+        if (value.length >= lengthOfCaptcha) {
           enterValid();
         }
-        if(value.length < 4){
-          setValidateCaptcha(true)
+        if (value.length < lengthOfCaptcha) {
+          setValidateCaptcha(true);
         }
         // alert("Invalid security code!");
         // generateSecurityCodeImage();
@@ -67,8 +66,14 @@ export default ({ enterValid, setValidateCaptcha }) => {
 
   return (
     <div className="relative w-auto h-auto m-auto">
-      {/* <form onSubmit={onSubmit}> */}
-      <div style={{ display: "flex", justifyContent:'center', gap:20, padding:14 }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 20,
+          padding: 14,
+        }}
+      >
         <div style={{ width: "150px" }}>
           <img
             id="securityCodeImage"
@@ -77,7 +82,8 @@ export default ({ enterValid, setValidateCaptcha }) => {
               objectFit: "contain",
               width: "100%",
               height: "100%",
-              background:'#545454',
+              background: "#f1f1f1",
+              color: "#000000",
               paddingLeft: "2rem",
               paddingRight: "-100px",
             }}
@@ -86,12 +92,18 @@ export default ({ enterValid, setValidateCaptcha }) => {
         <div style={{ width: "100px" }}>
           <input
             id="securityCode"
-            style={{ flexGrow: 1, width: "100%",  padding: "0.5rem", border:'1px solid #545454' }}
+            style={{
+              flexGrow: 1,
+              width: "100%",
+              padding: "0.5rem",
+              border: "1px solid #545454",
+              fontSize: "16px",
+            }}
             type="text"
             name="securityCode"
             required
             onChange={onChange}
-            value={values.securityCode}
+            value={values}
           />
         </div>
       </div>

@@ -14,7 +14,9 @@ const PricingComparision = () => {
             display={"flex"}
             justifyContent={"center"}
             alignItems={"center"}
-            p={4}
+            px={{lg:4,md:2,xs:0}}
+            py={3}
+
           >
             <Box
               bgcolor={"white"}
@@ -72,34 +74,48 @@ const PricingComparision = () => {
               >
                 Talk to an expert
               </Button>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Basic Financials</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Validation</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Customer Design</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Founder Grooming</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Financial Valuations</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Detailed Business Plan</Typography>
               </Box>
@@ -112,7 +128,8 @@ const PricingComparision = () => {
             display={"flex"}
             justifyContent={"center"}
             alignItems={"center"}
-            p={4}
+            px={{lg:4,md:2,xs:0}}
+            py={3}
           >
             <Box
               bgcolor={"white"}
@@ -167,34 +184,48 @@ const PricingComparision = () => {
               >
                 Talk to an expert
               </Button>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Basic Financials</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Validation</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Customer Design</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Founder Grooming</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Financial Valuations</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Detailed Business Plan</Typography>
               </Box>
@@ -208,7 +239,8 @@ const PricingComparision = () => {
             display={"flex"}
             justifyContent={"center"}
             alignItems={"center"}
-            p={4}
+            px={{lg:4,md:2,xs:0}}
+            py={3}
           >
             <Box
               bgcolor={"white"}
@@ -263,34 +295,48 @@ const PricingComparision = () => {
               >
                 Talk to an expert
               </Button>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Story and Market Analysis</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Basic Financials</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Validation</Typography>
               </Box>
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Customer Design</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Founder Grooming</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Financial Valuations</Typography>
               </Box>
 
-              <Box sx={{ display: "flex", gap: 1 }}>
+              <Box sx={{ display: "flex", gap: 1 ,fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",}}>
                 <CheckCircleOutlineIcon />
                 <Typography>Detailed Business Plan</Typography>
               </Box>

@@ -12,8 +12,8 @@ import LatestUpdates from "../components/Home/LatestUpdates";
 import Portfolio from "../components/Home/Portfolio";
 import Services from "../components/Home/Services";
 import Subscribe from "../components/Home/Subscribe";
-import GetinTouch from "../components/GetinTouch";
-import Testimonial from "../components/VideoPitch/Testimonial";
+import Testimonial from "../components/TestimonialSection";
+import GetInTouch from "../components/GetInTouch";
 
 const Home = () => {
   return (
@@ -29,8 +29,8 @@ const Home = () => {
       <LatestUpdates />
       <FeatureSection />
       <Testimonial/>
-      <GetinTouch />
-      <Subscribe />
+      <GetInTouch />
+      {/* <Subscribe /> */}
     </>
   );
 };

@@ -16,7 +16,8 @@ export const LatestUpdates = () => {
         color={'#212121'}
       >
         <Typography variant="h4" sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "24px" }} color={"#000000"} pt={8} >
-          Latest Updates
+        Our News Articles
+          {/* Latest Updates */}
         </Typography>
 
         <Typography my={2} variant="h6" sx={{ textAlign : "center" , fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} mb={5}>

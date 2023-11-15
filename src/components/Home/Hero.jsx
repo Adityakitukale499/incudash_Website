@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
-
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
+import GetInTouchModal from '../GetInTouchModal'
 
 const Hero = () => {
+  const [open, setOpen] = useState(false)
   return (
     <Box
       sx={{
@@ -57,8 +58,7 @@ const Hero = () => {
                 display:{lg:'block',xs:'none'}
               }}
             >
-              Easy to Pitch is India's first AI platform for founders to become
-              investment ready.
+              Easy To Pitch India’s first one stop solution to make startups investment ready.
             </Typography>
 
             <Button
@@ -77,9 +77,11 @@ const Hero = () => {
                 bgcolor: "#ff8c22",
                 color: "white",
               }}
+              onClick={()=> setOpen(true)}
             >
               Get Started
             </Button>
+            {/* Enquery box */}
           </Box>
         </Grid>
         <Grid item lg={6} xs={12}>
@@ -97,6 +99,7 @@ const Hero = () => {
           </Box>
         </Grid>
       </Grid>
+      <GetInTouchModal open={open} setOpen={setOpen}/>
     </Box>
   );
 };

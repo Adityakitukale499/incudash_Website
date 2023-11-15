@@ -47,9 +47,10 @@ export default ({ enterValid, setValidateCaptcha }) => {
         }
         if (value.length < lengthOfCaptcha) {
           setValidateCaptcha(true);
+        } else {
+          generateSecurityCodeImage();
         }
         // alert("Invalid security code!");
-        // generateSecurityCodeImage();
 
         // return;
       } else {
@@ -71,13 +72,13 @@ export default ({ enterValid, setValidateCaptcha }) => {
           display: "flex",
           justifyContent: "center",
           gap: 20,
-          padding: 14,
+          padding: 10,
         }}
       >
         <div style={{ width: "150px" }}>
           <img
             id="securityCodeImage"
-            alt="Security Code Challange"
+            alt="unavilable"
             style={{
               objectFit: "contain",
               width: "100%",
@@ -95,7 +96,7 @@ export default ({ enterValid, setValidateCaptcha }) => {
             style={{
               flexGrow: 1,
               width: "100%",
-              padding: "0.5rem",
+              padding: "0.4rem",
               border: "1px solid #545454",
               fontSize: "16px",
             }}

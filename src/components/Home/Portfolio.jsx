@@ -38,7 +38,7 @@ const Portfolio = () => {
               id magna acinteger."
             </Typography>
 
-            <Box sx={{ display: "flex", gap: 2 }}>
+            <Box sx={{ display: "flex",justifyContent:{lg:'start', xs:'center'}, gap: 2 }}>
               <img src="aliquet.png" width={"50px"} height={"50px"} />
 
               <Box   sx={{ textAlign : 'start', fontWeight: 400 , fontFamily: 'Montserrat' , fontSize : "14px" }} color={"#000000"} lineHeight={'21px'}>

@@ -18,7 +18,6 @@ const Achievment = () => {
             color: "#212121",
             display: "flex",
             justifyContent: "center",
-            textAlign: "center",
           }}
         >
           <Grid item lg={2.1} xs={10}>

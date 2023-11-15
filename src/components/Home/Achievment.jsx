@@ -5,18 +5,40 @@ const Achievment = () => {
   return (
     <>
       <Box
-        sx={{ display: "flex", justifyContent: "center", textAlign: "center" }}
+        sx={{ display: "flex", flexDirection:'column',justifyContent: "center",alignItems:'center',
+        bgcolor: "#F5F7FA", py:6}}
       >
+        <Box sx={{width:'80%',pb:3}}>
+        <Typography
+              sx={{
+                fontWeight: 700,
+                fontFamily: "Montserrat ,sans-serif",
+                fontSize: "32px",
+                textAlign:'center'
+              }}
+            >
+              We Are Growing
+            </Typography>
+            <Typography
+              sx={{
+                fontWeight: 400,
+                fontFamily: "Montserrat ,sans-serif",
+                fontSize: "14px",textAlign:'center'
+              }}
+            >
+            We focus on every industry space. Once associated, we ensure that your startup becomes pitch perfect.
+            </Typography>
+        </Box>
         <Grid
           container
           gap={2}
           sx={{
-            p: 10,
+            // px: 10,
             textAlign: "center",
-            bgcolor: "#F5F7FA",
             // px: 20,
             color: "#212121",
-            display: "flex", justifyContent: "center", textAlign: "center" 
+            display: "flex",
+            justifyContent: "center",
           }}
         >
           <Grid item lg={2.1} xs={10}>
@@ -25,11 +47,10 @@ const Achievment = () => {
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "40px",
-                // textAlign:'center'
               }}
             >
-              500+
-              </Typography>
+              8000+
+            </Typography>
             <Typography
               sx={{
                 fontWeight: 400,
@@ -48,7 +69,7 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              5000+
+              10000+
             </Typography>
             <Typography
               sx={{
@@ -68,7 +89,7 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              200+
+              400+
             </Typography>
             <Typography
               sx={{
@@ -88,7 +109,7 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              1000+
+              5000+
             </Typography>
             <Typography
               sx={{
@@ -108,7 +129,7 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              21+
+              50,000+
             </Typography>
             <Typography
               sx={{
@@ -117,46 +138,12 @@ const Achievment = () => {
                 fontSize: "14px",
               }}
             >
-              Cities Reached
+              Founders Community
             </Typography>
           </Grid>
-          {/* <Grid item lg={2} xs={4}></Grid> */}
         </Grid>
       </Box>
     </>
-
-    //     <Grid container spacing={2} justifyContent="space-between" sx={{ my: 1, py: 3, textAlign: 'center', bgcolor: "#F5F7FA" }}>
-    //   <Grid item lg={2.4} xs={4}>
-    //     <Typography variant="h3" sx={{ fontWeight: 600, fontSize: 50 }}>
-    //       500+
-    //     </Typography>
-    //     <Typography variant="caption">Startup Served</Typography>
-    //   </Grid>
-    //   <Grid item lg={2.4} xs={4}>
-    //     <Typography variant="h3" sx={{ fontWeight: 600, fontSize: 40 }}>
-    //       5000+
-    //     </Typography>
-    //     <Typography variant="caption">Decks Reviewed</Typography>
-    //   </Grid>
-    //   <Grid item lg={2.4} xs={4}>
-    //     <Typography variant="h3" sx={{ fontWeight: 600 }}>
-    //       200+
-    //     </Typography>
-    //     <Typography variant="caption">Ecosystem Partners</Typography>
-    //   </Grid>
-    //   <Grid item lg={2.4} xs={4}>
-    //     <Typography variant="h3" sx={{ fontWeight: 600 }}>
-    //       1000+
-    //     </Typography>
-    //     <Typography variant="caption">Founders Groomed</Typography>
-    //   </Grid>
-    //   <Grid item lg={2.4} xs={4}>
-    //     <Typography variant="h3" sx={{ fontWeight: 600 }}>
-    //       21+
-    //     </Typography>
-    //     <Typography variant="caption">Cities Reached</Typography>
-    //   </Grid>
-    // </Grid>
   );
 };
 

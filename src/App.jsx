@@ -15,7 +15,7 @@ function App() {
 
         <Footer />
         <ToastContainer
-          position="bottom-right"
+          position="top-right"
           autoClose={5000}
           hideProgressBar={false}
           newestOnTop={false}
@@ -26,6 +26,7 @@ function App() {
           pauseOnHover
           theme="dark"
         />
+        
       </BrowserRouter>
     </>
   );

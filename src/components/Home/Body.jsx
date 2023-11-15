@@ -24,7 +24,7 @@ const Body = () => {
         >
           <img
             src="Top_Lapy.png"
-            style={{ width: "80%", maxWidth: "320px", height: "230px" }}
+            style={{ width: "85%", maxWidth: "370px",  }}
           />
         </Grid>
 
@@ -40,42 +40,54 @@ const Body = () => {
         >
           <Box>
             <Typography
-              variant="h4"
               sx={{
                 fontWeight: 700,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "32px",
               }}
             >
-              Let us be a part of your startup journey!
+              {/* Let us be a part of your startup journey! */}
+              Embark on your startup journey with us!
             </Typography>
             <Typography
-              variant="body1"
               sx={{
-                my: 1,
+                // my: 1,
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "14px",
               }}
             >
-              We make founders pitch ready. Build your startup story and not
-              just a pitch deck. Get your Financial Valuations and Projections
-              perfect Customized jaw-dropping presentations with best design and
-              crisp content to raise capital.
+              {/* We make founders pitch ready. Build your startup story and not just a pitch deck. Get your Financial Valuations and Projections perfect Customized aw-dropping presentations with best design and crisp content to raise capital. */}
+              <b>• Compelling Storytelling: </b>Transform your pitch into a captivating narrative that resonates with investors.
             </Typography>
 
             <Typography
-              variant="body1"
               sx={{
                 fontWeight: 400,
                 fontFamily: "Montserrat ,sans-serif",
                 fontSize: "14px",
               }}
             >
-              Depending on the sector, stage and market of your startup, Easy to
-              Pitch builds your investment pitch deck presentation that is
-              designed to tell your startup story in the best way possible to
-              investors in order to face less rejections.
+              {/* Depending on the sector, stage and market of your startup, Easy to Pitch builds your investment pitch deck presentation that is designed to tell your startup story in the best way possible to investors in order to face less rejections. */}
+              <b>• Market Research Expertise:</b> Benefit from our insights to fine-tune your pitch based on sector-specific market trends.
+            </Typography>
+            <Typography
+              sx={{
+                fontWeight: 400,
+                fontFamily: "Montserrat ,sans-serif",
+                fontSize: "14px",
+              }}
+            >
+              <b>• Precision in Finances:</b> Ensure your financial valuations and projections are flawless, instilling confidence in potential backers.
+            </Typography>
+            <Typography
+              sx={{
+                fontWeight: 400,
+                fontFamily: "Montserrat ,sans-serif",
+                fontSize: "14px",
+              }}
+            >
+              <b>• Customized Presentations:</b> Our team crafts attention-grabbing presentations with the perfect blend of design and content.
             </Typography>
           </Box>
         </Grid>

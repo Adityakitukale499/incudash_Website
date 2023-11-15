@@ -25,18 +25,19 @@ export default function Cards() {
               boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
             }}
           >
-            <CardContent>
+            <CardContent >
+              <Box display={'flex'} justifyContent={'center'}>
               <img
                 src="startup1.png"
                 style={{ width: "42px", height: "42px" }}
-              />
+              /></Box>
               <Typography
-                variant="h6"
                 sx={{
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
-                  // my:1
+                  my:1,
+                  textAlign:'center'
                 }}
                 gutterBottom
                 color={"#545454"}
@@ -51,14 +52,11 @@ export default function Cards() {
                   fontWeight: 400,
                   fontFamily: "Open Sans ,sans-serif",
                   fontSize: "14px",
-                  height: 85, overflowY: "scroll"
+                  height: 85, overflowY: "scroll",
+                  textAlign:'center'
                 }}
               >
-                Investors Invest in compelling stories and your pitch deck is a
-                vehicle for telling the story you want to tell.Investors Invest in compelling stories and your pitch deck is a
-                vehicle for telling the story you want to tell.Investors Invest in compelling stories and your pitch deck is a
-                vehicle for telling the story you want to tell.Investors Invest in compelling stories and your pitch deck is a
-                vehicle for telling the story you want to tell.
+                Investors Invest in compelling stories and your pitch deck is a vehicle for telling the story you want to tell.
               </Typography>
             </CardContent>
           </Card>
@@ -78,17 +76,20 @@ export default function Cards() {
             }}
           >
             <CardContent>
+            <Box display={'flex'} justifyContent={'center'}>
               <img
                 src="startup2.png"
                 style={{ width: "42px", height: "42px" }}
               />
+              </Box>
               <Typography
                 variant="h6"
                 sx={{
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
-                  // my: 1,
+                  my: 1,
+                  textAlign:'center'
                 }}
                 color={"#545454"}
                 gutterBottom
@@ -103,11 +104,11 @@ export default function Cards() {
                   fontWeight: 400,
                   fontFamily: "Open Sans ,sans-serif",
                   fontSize: "14px",
-                  height: 85, overflowY: "scroll"
+                  height: 85, overflowY: "scroll",
+                  textAlign:'center'
                 }}
               >
-                Financial Projections & Valuations complete an Investment Pitch
-                or Business Plan. Without right numbers there is high chance of
+                Financial Projections & Valuations complete an Investment Pitch or Business Plan. Without right numbers there is high chance of
                 rejection.
               </Typography>
             </CardContent>
@@ -127,18 +128,21 @@ export default function Cards() {
               boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
             }}
           >
-            <CardContent>
+            <CardContent>            
+            <Box display={'flex'} justifyContent={'center'}>
               <img
                 src="startup3.png"
                 style={{ width: "42px", height: "42px" }}
               />
+              </Box>
               <Typography
                 variant="h6"
                 sx={{
                   fontWeight: 700,
                   fontFamily: "Raleway ,sans-serif",
                   fontSize: "20px",
-                  // my: 1,
+                  my: 1,
+                  textAlign:'center'
                 }}
                 color={"#545454"}
                 gutterBottom
@@ -153,7 +157,7 @@ export default function Cards() {
                   fontWeight: 400,
                   fontFamily: "Open Sans ,sans-serif",
                   fontSize: "14px",
-                  height: 85, overflowY: "scroll"
+                  height: 85, overflowY: "scroll",textAlign:'center'
                 }}
               >
                 Good Investors are those that add value to your startup than

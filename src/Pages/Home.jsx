@@ -13,7 +13,7 @@ import Portfolio from "../components/Home/Portfolio";
 import Services from "../components/Home/Services";
 import Subscribe from "../components/Home/Subscribe";
 import Testimonial from "../components/TestimonialSection";
-import GetInTouch from "../components/GetInTouch";
+import GetInTouch from "../components/GetinTouch";
 
 const Home = () => {
   return (

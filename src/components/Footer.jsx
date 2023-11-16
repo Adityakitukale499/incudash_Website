@@ -368,6 +368,7 @@ const Footer = () => {
             alt="companyLogo"
             height={50}
             style={{ margin: "25px 0" }}
+            onClick={()=> navigate('/')}
           />
         </Grid>
 

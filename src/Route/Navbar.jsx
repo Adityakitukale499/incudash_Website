@@ -155,7 +155,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Box, Grid, Typography, Button } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Click() {
   var navbar = document.querySelector(".main-nav ul");
@@ -163,6 +163,7 @@ function Click() {
 }
 
 function Navbar() {
+  const navigate = useNavigate()
   return (
     <header className="main-header">
       <span href="index.html" className="brand-logo">
@@ -174,7 +175,7 @@ function Navbar() {
             to pitch
           </Typography>
   </Typography>*/}
-        <img src="easytopitchLogo.png" alt="logo" style={{marginTop:10}}/> 
+        <img src="easytopitchLogo.png" alt="logo" style={{marginTop:10}} onClick={()=> navigate('/')}/> 
 
       </span>
       <div href="#" className="toggle-button" onClick={Click}>

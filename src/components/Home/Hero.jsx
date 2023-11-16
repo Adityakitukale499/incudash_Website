@@ -121,6 +121,7 @@ const Hero = () => {
         backgroundImage: "url('Hero Heading.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition:'center center' ,
         mt: 2,
       }}
     >

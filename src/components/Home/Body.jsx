@@ -145,7 +145,7 @@ const Body = () => {
                   bgcolor: "#ff8c22",
                   color: "white",
                 }}
-                onClick={() => setOpen(true)}
+                // onClick={() => setOpen(true)}
               >
                 Book a demo
               </Button>

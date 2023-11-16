@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 export default ({ enterValid, setValidateCaptcha }) => {
   const lengthOfCaptcha = 4;
@@ -6,14 +6,15 @@ export default ({ enterValid, setValidateCaptcha }) => {
   const [values, setValues] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [securityCode, setSecurityCode] = useState("");
-
+  const random = useRef(Date.now());
   const generateSecurityCodeImage = () => {
     const code = Array.from(Array(SECURITY_CODE_LENGTH), () =>
       Math.floor(Math.random() * 36).toString(36)
     ).join("");
 
     const securityCodeImageElement =
-      document.getElementById("securityCodeImage");
+      document.getElementById(`securityCodeImage-${random.current}`);
+    console.log(securityCodeImageElement);
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
 
@@ -30,8 +31,9 @@ export default ({ enterValid, setValidateCaptcha }) => {
     function loadImage(e) {
       ctx.drawImage(e.target, 0, 0);
       securityCodeImageElement.src = canvas.toDataURL();
+      console.log("loadImage");
     }
-
+    console.log(canvas.toDataURL());
     setSecurityCode(code);
   };
 
@@ -77,7 +79,7 @@ export default ({ enterValid, setValidateCaptcha }) => {
       >
         <div style={{ width: "150px" }}>
           <img
-            id="securityCodeImage"
+            id={`securityCodeImage-${random.current}`}
             alt="unavilable"
             style={{
               objectFit: "contain",

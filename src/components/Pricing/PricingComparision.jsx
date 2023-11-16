@@ -19,7 +19,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888" }}
+              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -30,13 +30,14 @@ const PricingComparision = () => {
 
               <Typography
                 fontSize={"40px"}
-                lineHeight={"72px"}
+                lineHeight={"50px"}
                 fontWeight={600}
                 textAlign={"center"}
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Idea/MVP
+                Basic Package 
+              </Typography>
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"14px"}
@@ -45,7 +46,26 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  Stage{" "}
+                  Starting at
+                </Typography>
+              <Typography
+                fontSize={"24px"}
+                lineHeight={"24px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
+               $599/mo
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"22.4px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
+                  lorem ipsum dolor
                 </Typography>
               </Typography>
               <Button
@@ -65,7 +85,7 @@ const PricingComparision = () => {
                   color: "#212121",
                   borderColor: "#212121",
                   p: 2.5,
-                  my: 5,
+                  mb: 5,
                 }}
               >
                 Talk to an expert
@@ -79,10 +99,11 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
-                    Story and Market Analysis
+                    {/* Story and Market Analysis */}
+                    Pitch Deck
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -93,10 +114,11 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
-                    <>Basic Financials</>
+                    {/* <>Basic Financials</> */}
+                    Financial Valuations 
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -107,68 +129,14 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
-                    <>Validation</>
+                    {/* <>Validation</> */}
+                    Investor's Connect (Complimentary)
                   </Typography>
                 </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Customer Design</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Founder Grooming</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Financial Valuations</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Detailed Business Plan</>
-                  </Typography>
-                </Box>
+       
               </Box>
             </Box>
           </Grid>
@@ -184,7 +152,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888" }}
+              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
               display={"flex"}
               // justifyContent={'center'}
               flexDirection={"column"}
@@ -193,16 +161,16 @@ const PricingComparision = () => {
               <Box display={"flex"} justifyContent={"center"}>
                 <img src="pricing2.png" width={"80px"} />
               </Box>
-
               <Typography
                 fontSize={"40px"}
-                lineHeight={"72px"}
+                lineHeight={"50px"}
                 fontWeight={600}
                 textAlign={"center"}
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Seed
+                Advance Package 
+              </Typography>
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"14px"}
@@ -211,7 +179,26 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  Stage{" "}
+                  Starting at
+                </Typography>
+              <Typography
+                fontSize={"24px"}
+                lineHeight={"24px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
+               $599/mo
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"22.4px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
+                  lorem ipsum dolor
                 </Typography>
               </Typography>
               <Button
@@ -231,7 +218,7 @@ const PricingComparision = () => {
                   color: "#212121",
                   borderColor: "#212121",
                   p: 2.5,
-                  my: 5,
+                  mb: 5,
                 }}
               >
                 Talk to an expert
@@ -244,11 +231,12 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    Story and Market Analysis
+                    {/* Story and Market Analysis */}
+                    Pitch Deck
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -258,11 +246,12 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    <>Basic Financials</>
+                    {/* <>Basic Financials</> */}
+                    Financial Valuations
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -272,69 +261,15 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    <>Validation</>
+                    {/* <>Validation</> */}
+                    Investor's Connect (Complimentary)
                   </Typography>
                 </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Customer Design</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Founder Grooming</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Financial Valuations</>
-                  </Typography>
-                </Box>
-                <Box display={"flex"} gap={1} my={1}>
-                  <CheckCircleOutlineIcon />
-                  <Typography
-                    sx={{
-                      display: "flex",
-                      gap: 1,
-                      fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
-                    }}
-                  >
-                    <>Detailed Business Plan</>
-                  </Typography>
-                </Box>
+                
               </Box>
             </Box>
           </Grid>
@@ -351,7 +286,7 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888" }}
+              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -362,13 +297,14 @@ const PricingComparision = () => {
 
               <Typography
                 fontSize={"40px"}
-                lineHeight={"72px"}
+                lineHeight={"50px"}
                 fontWeight={600}
                 textAlign={"center"}
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Series
+                Founder Grooming 
+              </Typography>
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"14px"}
@@ -377,7 +313,26 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  Stage{" "}
+                  Starting at
+                </Typography>
+              <Typography
+                fontSize={"24px"}
+                lineHeight={"24px"}
+                fontWeight={600}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#212121"}
+              >
+               $599/mo
+                <Typography
+                  fontSize={"14px"}
+                  lineHeight={"22.4px"}
+                  fontWeight={400}
+                  textAlign={"center"}
+                  fontFamily={"Montserrat"}
+                  color={"#333333"}
+                >
+                  lorem ipsum dolor
                 </Typography>
               </Typography>
               <Button
@@ -397,7 +352,7 @@ const PricingComparision = () => {
                   color: "#212121",
                   borderColor: "#212121",
                   p: 2.5,
-                  my: 5,
+                  mb: 5,
                 }}
               >
                 Talk to an expert
@@ -410,11 +365,11 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    Story and Market Analysis
+                   Get 3 Sessions
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -424,11 +379,12 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    <>Basic Financials</>
+                    {/* <>Basic Financials</> */}
+                    Discuss On Various Red Flag
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -438,14 +394,14 @@ const PricingComparision = () => {
                       display: "flex",
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
-                      fontWeight: 500,
-                      fontSize: "12px",
+                      fontWeight: 400,
+                      fontSize: "14px",
                     }}
                   >
-                    <>Validation</>
+                   Expansion Strategies
                   </Typography>
                 </Box>
-                <Box display={"flex"} gap={1} my={1}>
+                {/* <Box display={"flex"} gap={1} my={1}>
                   <CheckCircleOutlineIcon />
                   <Typography
                     sx={{
@@ -453,7 +409,7 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
                     <>Customer Design</>
@@ -467,7 +423,7 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
                     <>Founder Grooming</>
@@ -481,13 +437,13 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
                     <>Financial Valuations</>
                   </Typography>
                 </Box>
-                <Box display={"flex"} gap={1} my={1}>
+                <Box display={"flex"} gap={1} my={1}> 
                   <CheckCircleOutlineIcon />
                   <Typography
                     sx={{
@@ -495,12 +451,12 @@ const PricingComparision = () => {
                       gap: 1,
                       fontFamily: "Montserrat ,sans-serif ",
                       fontWeight: 500,
-                      fontSize: "12px",
+                      fontSize: "14px",
                     }}
                   >
                     <>Detailed Business Plan</>
                   </Typography>
-                </Box>
+                </Box>*/}
               </Box>
             </Box>
           </Grid>

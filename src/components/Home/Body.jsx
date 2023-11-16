@@ -1,8 +1,9 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
 
 const Body = () => {
   return (
+    <>
     <Box
       sx={{
         display: "flex",
@@ -18,7 +19,7 @@ const Body = () => {
           lg={4.8}
           sx={{
             display: "flex",
-            justifyContent: "center",
+            justifyContent: {lg:"start",xs:'center'},
             alignItems: "center",
           }}
         >
@@ -92,7 +93,83 @@ const Body = () => {
           </Box>
         </Grid>
       </Grid>
+      
     </Box>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        my: 10,
+        color: "#212121",
+      }}
+    >
+      <Grid container sx={{ width: "75%" }} gap={2}>
+        <Grid
+          item
+          xs={12}
+          lg={3}
+          sx={{
+            display: "flex",
+            flexDirection:'column',
+            gap:'20px'
+          }}
+        >
+          <Typography sx={{fontFamily:'Montserrat', fontWeight:700, fontSize:'24px',lineHeight:'36px'}}>
+            Gallery Section
+          </Typography>
+          <Typography sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </Typography>
+          <Typography sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+          Lorem ipsum dolor sit amet
+          </Typography>
+          <Typography sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+          dolor sit amet consectetur
+          </Typography>
+          <Typography sx={{fontFamily:'Montserrat', fontWeight:400, fontSize:'14px',lineHeight:'21px'}}>
+          dolor sit amet consectetur
+          </Typography>
+          <Button
+                variant="contained"
+                sx={{
+                  "&:hover": {
+                    background: "#ff8c22",
+                  },
+                  mt: 2,
+                  fontFamily: "Montserrat ,sans-serif ",
+                  fontWeight: 500,
+                  fontSize: "12px",
+                  width: "132px",
+                  height: "41px",
+                  borderRadius: "0",
+                  bgcolor: "#ff8c22",
+                  color: "white",
+                }}
+                onClick={() => setOpen(true)}
+              >
+                Book a demo
+              </Button>
+        </Grid>
+
+        <Grid
+          item
+          xs={12}
+          lg={8.7}
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src="Small Columns.png"
+            style={{ width: "100%"  }}
+          />
+        </Grid>
+      </Grid>
+      
+    </Box>
+    </>
   );
 };
 

@@ -1,9 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material";
 
@@ -28,7 +26,7 @@ export default function Cards() {
             <CardContent >
               <Box display={'flex'} justifyContent={'center'}>
               <img
-                src="startup1.png"
+                src="user (2).png"
                 style={{ width: "42px", height: "42px" }}
               /></Box>
               <Typography
@@ -78,8 +76,8 @@ export default function Cards() {
             <CardContent>
             <Box display={'flex'} justifyContent={'center'}>
               <img
-                src="startup2.png"
-                style={{ width: "42px", height: "42px" }}
+                src="management (1).png"
+                style={{ width: "48px", height: "42px" }}
               />
               </Box>
               <Typography
@@ -131,7 +129,7 @@ export default function Cards() {
             <CardContent>            
             <Box display={'flex'} justifyContent={'center'}>
               <img
-                src="startup3.png"
+                src="brifcase (1).png"
                 style={{ width: "42px", height: "42px" }}
               />
               </Box>

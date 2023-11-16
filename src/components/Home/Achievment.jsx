@@ -1,7 +1,17 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 const Achievment = () => {
+  function Number({num}){
+    const {number} = useSpring({
+      from: {number:0},
+      number:num,
+      delay:100,
+      config:{mass:1 , tension: 20, friction: 10},
+    })
+    return <animated.span>{number.to((n)=> n.toFixed(0))}</animated.span>
+  }
   return (
     <>
       <Box
@@ -49,7 +59,8 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              8000+
+              {/* 8000+ */}
+              <Number num={8000}/>+
             </Typography>
             <Typography
               sx={{
@@ -69,7 +80,9 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              10000+
+              {/* 10000+ */}
+              <Number num={10000}/>+
+
             </Typography>
             <Typography
               sx={{
@@ -89,7 +102,9 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              400+
+              {/* 400+ */}
+              <Number num={400}/>+
+
             </Typography>
             <Typography
               sx={{
@@ -109,7 +124,9 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              5000+
+              {/* 5000+ */}
+              <Number num={5000}/>+
+
             </Typography>
             <Typography
               sx={{
@@ -129,7 +146,9 @@ const Achievment = () => {
                 fontSize: "40px",
               }}
             >
-              50,000+
+              {/* 50,000+ */}
+              <Number num={50000}/>+
+
             </Typography>
             <Typography
               sx={{

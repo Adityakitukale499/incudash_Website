@@ -4,6 +4,15 @@ import React from "react";
 const Portfolio = () => {
   return (
     <>
+    <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px", mt:10 }} color={"#000000"} >
+        Our Investores
+      </Typography>
+     
+
+      <Box display={"flex"} my={5} justifyContent={"center"} gap={5}>
+        <img src="https://venturecatalysts.in/assets/images/new-logo.svg" width={"25%"} />
+        <img src="https://www.jpin.co/wp-content/themes/jpin/images/jpin-vcats-logo.svg" width={"5%"}/>
+      </Box>
       <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
         Our Portfolio
       </Typography>

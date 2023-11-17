@@ -10,10 +10,22 @@ const Services = () => {
         Our Services
       </Typography>
 
-      <Typography textAlign={"center"}  color={"#000000"} variant="body1" sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px" , mb:4}}>
+      {/* <Typography textAlign={"center"}  color={"#000000"} variant="body1" sx={{  fontWeight: 400, fontFamily : 'Montserrat ,sans-serif' , fontSize : "16px" , mb:4}}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
         Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem.
-      </Typography>
+      </Typography> */}
+       <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: 10,
+          }}
+        >
+          <span
+            style={{ height: "4px", width: "90px", backgroundColor: "#FF8C22" }}
+          ></span>
+        </div>
 
       {/* <Box sx={{ mx: 10 }}>
         <Grid container spacing={0}>

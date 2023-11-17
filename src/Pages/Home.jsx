@@ -14,10 +14,11 @@ import Services from "../components/Home/Services";
 import Subscribe from "../components/Home/Subscribe";
 import Testimonial from "../components/TestimonialSection";
 import GetInTouch from "../components/GetinTouch";
+import { Box } from "@mui/material";
 
 const Home = () => {
   return (
-    <div style={{marginTop:'82px'}}>
+    <Box sx={{mt:{md:'82px',xs:'0px'}}}>
       <Hero />
       <Achievments />
       <Body />
@@ -26,12 +27,12 @@ const Home = () => {
       <Fund />
       {/* <DescriptionNumbers /> */}
       <Portfolio />
-      <LatestUpdates />
+      {/* <LatestUpdates /> */}
       {/* <FeatureSection /> */}
       <Testimonial/>
       <GetInTouch />
       {/* <Subscribe /> */}
-    </div>
+    </Box>
   );
 };
 

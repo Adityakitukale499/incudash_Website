@@ -5,10 +5,11 @@ import MyRoutes from "./Route/MyRoutes";
 import Footer from "./components/Footer";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import { Box } from "@mui/material";
 
 function App() {
   return (
-    <div style={{marginTop:'67px'}}>
+    <Box sx={{mt:{md:'67px',xs:'0px'}}}>
       <BrowserRouter>
         <Navbar />
         <MyRoutes />
@@ -28,7 +29,7 @@ function App() {
         />
         
       </BrowserRouter>
-    </div>
+    </Box>
   );
 }
 

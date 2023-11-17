@@ -3,32 +3,33 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <Box sx={{px:{lg:17,md:8,xs:2}, my:5}}>
-    <Grid container sx={{ gap: 5 ,mb:5}}>
+    <Box sx={{px:{lg:17,md:8,xs:2}, my:5}}> <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px",my:5 }} color={"#000000"} >
+        Our Investores
+      </Typography>
+    <Grid container sx={{ gap: 5 ,mb:5, display:'flex', justifyContent:'center'}}>
         <Grid
           item
           xs={12}
-          lg={5}
+          lg={5.7}
         >
-           <Typography  sx={{ textAlign : {lg:'start',xs:"center"}  , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
-        Our Investores
-      </Typography>
-      <Typography  sx={{ textAlign : {lg:'start',xs:"center"} , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "12px", fontStyle:'italic'}} color={"#000000"} >
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, iure. Quo natus fugit distinctio voluptatum doloribus saepe dolore, libero voluptate eaque, ratione necessitatibus repellendus ipsam sed non magnam sequi ea?
+          
+      <Typography  sx={{ textAlign : {lg:'start',xs:"center"} , fontWeight: 600 , fontFamily: 'Montserrat' , fontSize : "12px", fontStyle:'italic'}} color={"#545454"} >
+        <span style={{fontWeight:900}}>Venture Catalysts</span> <br/>
+      Raising funds from Venture Catalysts certainly helped our business to expand our reach offline and upgrade logistics and infrastructural needs.
       </Typography>
         </Grid>
 
         <Grid
           item
           xs={12}
-          lg={6}
+          lg={5.7}
           display={"flex"}
           flexDirection={"column"}
           justifyContent={"center"}
           alignItems={"center"}
         >
            {/* <Box display={"flex"} my={5} justifyContent={"center"} gap={5}> */}
-        <img src="https://venturecatalysts.in/assets/images/new-logo.svg" width={"85%"}  />
+        <img src="https://venturecatalysts.in/assets/images/new-logo.svg" width={"70%"}  />
         {/* <img src="https://www.jpin.co/wp-content/themes/jpin/images/jpin-vcats-logo.svg" width={"5%"}/> */}
       {/* </Box> */}
         </Grid>

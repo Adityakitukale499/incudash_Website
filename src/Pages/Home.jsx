@@ -17,7 +17,7 @@ import GetInTouch from "../components/GetinTouch";
 
 const Home = () => {
   return (
-    <>
+    <div style={{marginTop:'82px'}}>
       <Hero />
       <Achievments />
       <Body />
@@ -27,11 +27,11 @@ const Home = () => {
       {/* <DescriptionNumbers /> */}
       <Portfolio />
       <LatestUpdates />
-      <FeatureSection />
+      {/* <FeatureSection /> */}
       <Testimonial/>
       <GetInTouch />
       {/* <Subscribe /> */}
-    </>
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <>
+    <div style={{marginTop:'67px'}}>
       <BrowserRouter>
         <Navbar />
         <MyRoutes />
@@ -28,7 +28,7 @@ function App() {
         />
         
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

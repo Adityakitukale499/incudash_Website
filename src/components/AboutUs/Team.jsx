@@ -273,7 +273,7 @@ const Team = () => {
                 <Typography
                   sx={{
                     bgcolor: "#80165E",
-                    width: "90%",
+                    width: {lg:"90%",xs:'100%'},
                     color: "#fff",
                     py: 1,
                     px: 4,

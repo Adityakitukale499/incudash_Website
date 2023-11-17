@@ -43,7 +43,7 @@ const Body = () => {
                   marginLeft: -20,
                 }}
               >
-                sear
+                search
               </span>
             </Box>
             <Typography

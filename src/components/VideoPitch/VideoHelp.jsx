@@ -4,6 +4,7 @@ import { styled } from "@mui/material/styles";
 import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
+import { useSpring, animated } from "react-spring";
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -18,8 +19,18 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "light" ? "orange" : "#308fe8",
   },
 }));
+function Number({num}){
+  const {number} = useSpring({
+    from: {number:0},
+    number:num,
+    delay:100,
+    config:{mass:1 , tension: 20, friction: 10},
+  })
+  return number.to((n)=> n.toFixed(0))
+}
 
 const VideoHelp = () => {
+ 
   return (
     <>
       <Typography

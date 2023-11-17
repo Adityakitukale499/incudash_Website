@@ -95,7 +95,7 @@ const Body = () => {
       </Grid>
       
     </Box>
-    <Box
+    {/* <Box
       sx={{
         display: "flex",
         justifyContent: "center",
@@ -168,7 +168,7 @@ const Body = () => {
         </Grid>
       </Grid>
       
-    </Box>
+    </Box> */}
     </>
   );
 };

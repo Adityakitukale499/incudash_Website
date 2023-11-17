@@ -3,28 +3,52 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <>
-    <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px", mt:10 }} color={"#000000"} >
+    <Box sx={{px:{lg:17,md:8,xs:2}, my:5}}>
+    <Grid container sx={{ gap: 5 ,mb:5}}>
+        <Grid
+          item
+          xs={12}
+          lg={5}
+        >
+           <Typography  sx={{ textAlign : {lg:'start',xs:"center"}  , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
         Our Investores
       </Typography>
+      <Typography  sx={{ textAlign : {lg:'start',xs:"center"} , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "12px", fontStyle:'italic'}} color={"#000000"} >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, iure. Quo natus fugit distinctio voluptatum doloribus saepe dolore, libero voluptate eaque, ratione necessitatibus repellendus ipsam sed non magnam sequi ea?
+      </Typography>
+        </Grid>
+
+        <Grid
+          item
+          xs={12}
+          lg={6}
+          display={"flex"}
+          flexDirection={"column"}
+          justifyContent={"center"}
+          alignItems={"center"}
+        >
+           {/* <Box display={"flex"} my={5} justifyContent={"center"} gap={5}> */}
+        <img src="https://venturecatalysts.in/assets/images/new-logo.svg" width={"85%"}  />
+        {/* <img src="https://www.jpin.co/wp-content/themes/jpin/images/jpin-vcats-logo.svg" width={"5%"}/> */}
+      {/* </Box> */}
+        </Grid>
+      </Grid>
+   
      
 
-      <Box display={"flex"} my={5} justifyContent={"center"} gap={5}>
-        <img src="https://venturecatalysts.in/assets/images/new-logo.svg" width={"25%"} />
-        <img src="https://www.jpin.co/wp-content/themes/jpin/images/jpin-vcats-logo.svg" width={"5%"}/>
-      </Box>
-      <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"} >
+     
+      <Typography  sx={{ textAlign : "center" , fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "20px" }} color={"#000000"} >
         Our Portfolio
       </Typography>
      
 
       <Box display={"flex"} my={5} justifyContent={"center"}>
-        <img src="comapany.png " width={"75%"} />
+        <img src="comapany.png " width={"100%"} />
       </Box>
 
       <Typography
         my={10}
-        sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}
+        sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "20px" }} color={"#000000"}
       >
         Our Partners
       </Typography>
@@ -41,7 +65,7 @@ const Portfolio = () => {
           }}
         >
           <Box bgcolor={"#F5F7FA"} p={4}>
-            <Typography  mb={3} variant="h5" gap={4}   sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "24px" }} color={"#000000"}>
+            <Typography  mb={3}  gap={4}   sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "24px" }} color={"#000000"}>
               "Aliquet consectetur id magna <br />
               ac integer. Aliquet consectetur <br />
               id magna acinteger."
@@ -73,7 +97,7 @@ const Portfolio = () => {
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Box>
   );
 };
 

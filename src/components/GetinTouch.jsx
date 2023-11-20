@@ -8,6 +8,7 @@ const GetInTouch = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [resetCaptcha, setResetCaptcha] = useState(true);
   const [validateCaptcha, setValidateCaptcha] = useState(true);
   const [btnDisabled, setBtnDisabled] = useState(true);
 
@@ -15,7 +16,9 @@ const GetInTouch = () => {
     toast.success(
       "We have registered your message and we will connect you soon."
     );
-  const enterValid = () => toast.warning("Enter Valid Captcha!!");
+  const enterValid = () => toast.error("Enter Valid Captcha!!");
+  const errorTost = () => toast.warning("Faield!!");
+  const fillErrorTost = () => toast.warning("Fill the complete form!!");
   useEffect(() => {
     if (EmailValidator.validate(email) && !validateCaptcha && name && message) {
       setBtnDisabled(false);
@@ -28,11 +31,9 @@ const GetInTouch = () => {
   const submit = async (e) => {
     e.preventDefault();
     if (!name && !email && !message) {
-      alert("please fill the all data");
+      fillErrorTost();
       return;
     }
-    // const newEntry = { email, password };
-    // setAllEntry([...allEntry, newEntry]);
     const res = await fetch(
       "https://incudash-c829c-default-rtdb.firebaseio.com/userMassageData.json",
       {
@@ -48,60 +49,77 @@ const GetInTouch = () => {
       }
     );
     if (res) {
+      setResetCaptcha(!resetCaptcha);
       setEmail("");
       setMessage("");
       setName("");
       success();
-      alert("store data succsesfully");
+      // alert("store data succsesfully");
     } else {
-      alert("faield");
+      // alert("faield");
+      errorTost();
     }
   };
 
   return (
-    <Grid container px={{lg:20,md:10,xs:2}}>
+    <Grid container px={{ lg: 20, md: 10, xs: 2 }}>
       <Grid item lg={6} xs={12}>
         <Box sx={{ py: 5 }}>
-          <Box sx={{ display: "flex", flexDirection:'column' , justifyContent: "end", alignItems:'center'}}>
-          <Typography
+          <Box
             sx={{
-              fontFamily: "Montserrat",
-              fontWeight: 700,
-              fontSize: "32px",
-              lineHeight: "38.4px",
-              // textAlign: "center",
-              color: "#000000",width: "85%",
-              maxWidth: "600px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "end",
+              alignItems: "center",
             }}
-            mb={2}
           >
-            Get in touch
-          </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Montserrat",
+                fontWeight: 700,
+                fontSize: "32px",
+                lineHeight: "38.4px",
+                // textAlign: "center",
+                color: "#000000",
+                width: "85%",
+                maxWidth: "600px",
+              }}
+              mb={2}
+            >
+              Get in touch
+            </Typography>
 
-          <Typography
-            sx={{
-              fontFamily: "Montserrat",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "27px",
-              // textAlign: "center",
-              color: "#000000",width: "85%",
-              maxWidth: "600px",
-            }}
-            mb={1}
-          >
-            Let us know how we can help
-          </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Montserrat",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "27px",
+                // textAlign: "center",
+                color: "#000000",
+                width: "85%",
+                maxWidth: "600px",
+              }}
+              mb={1}
+            >
+              Let us know how we can help
+            </Typography>
 
-            <form action="" method="POST" onSubmit={submit} style={{
-                  width: "85%",
-                  maxWidth: "600px",}}>
+            <form
+              action=""
+              method="POST"
+              onSubmit={submit}
+              style={{
+                width: "85%",
+                maxWidth: "600px",
+              }}
+            >
               <div
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   marginTop: "8px",
-                  textAlign: "left"
+                  textAlign: "left",
                 }}
               >
                 <label
@@ -213,6 +231,7 @@ const GetInTouch = () => {
               <Captcha
                 enterValid={enterValid}
                 setValidateCaptcha={setValidateCaptcha}
+                resetCaptcha={resetCaptcha}
               />
 
               <Button
@@ -242,20 +261,28 @@ const GetInTouch = () => {
           </Box>
         </Box>
       </Grid>
-      <Grid item lg={6} xs={12} display={{ lg: "flex", xs: "none" }} justifyContent={'center'} alignItems={'center'} >
+      <Grid
+        item
+        lg={6}
+        xs={12}
+        display={{ lg: "flex", xs: "none" }}
+        justifyContent={"center"}
+        alignItems={"center"}
+      >
         {/* <Box py={5}> */}
-          <Box sx={{
-            minWidth:'450px',
-            height:'450px',
+        <Box
+          sx={{
+            minWidth: "450px",
+            height: "450px",
             backgroundImage: "url('successful-confident.jpg')",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition:'center center',
-            my:5,
-            borderRadius:5
-          }} >
-          </Box>
-          {/* <img src="" alt="" style={{ width: "80%", maxWidth:'600px', height:'600px' }} /> */}
+            backgroundPosition: "center center",
+            my: 5,
+            borderRadius: 5,
+          }}
+        ></Box>
+        {/* <img src="" alt="" style={{ width: "80%", maxWidth:'600px', height:'600px' }} /> */}
         {/* </Box> */}
       </Grid>
     </Grid>

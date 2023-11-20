@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-export default ({ enterValid, setValidateCaptcha }) => {
+export default ({ enterValid, setValidateCaptcha,resetCaptcha }) => {
   const lengthOfCaptcha = 4;
   const SECURITY_CODE_LENGTH = lengthOfCaptcha;
   const [values, setValues] = useState("");
@@ -65,7 +65,8 @@ export default ({ enterValid, setValidateCaptcha }) => {
 
   useEffect(() => {
     generateSecurityCodeImage();
-  }, []);
+    setValues('')
+  }, [resetCaptcha]);
 
   return (
     <div className="relative w-auto h-auto m-auto">

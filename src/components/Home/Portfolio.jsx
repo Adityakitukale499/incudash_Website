@@ -36,7 +36,7 @@ const Portfolio = () => {
             }}
             color={"#545454"}
           >
-            <span style={{ fontWeight: 900 }}>Venture Catalysts</span> <br />
+            <span style={{ fontSize: "12px",fontWeight: 900 }}>Venture Catalysts</span> <br />
             Raising funds from Venture Catalysts certainly helped our business
             to expand our reach offline and upgrade logistics and
             infrastructural needs.

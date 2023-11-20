@@ -300,7 +300,7 @@ const Team = () => {
                 Priyanka Madnani is an experienced startup advisor and pitch
                 expert in India and at global platforms, having helped over
                 10,000+ startups turn their ideas into successful pitch stories
-                through her brand, <span style={{fontWeight:700}}> Easy To Pitch, a Venture Catalyst backed
+                through her brand, <span style={{fontSize: "14px",fontWeight:700}}> Easy To Pitch, a Venture Catalyst backed
                 firm.</span> 
               </Typography>
               <Typography
@@ -345,9 +345,9 @@ const Team = () => {
                   mt:1
                 }}
               >
-                She has recently ventured into <span style={{fontWeight:700}}> Terex</span>  to help investors get
+                She has recently ventured into <span style={{fontSize: "14px",fontWeight:700}}> Terex</span>  to help investors get
                 powerful investment opportunities with potential and promising
-                startups. She has past record of getting <span style={{fontWeight:700}}>7 startups invested
+                startups. She has past record of getting <span style={{fontSize: "14px",fontWeight:700}}>7 startups invested
                 from her network of investors such as Hesa, Fitspire and more.</span> 
               </Typography>
             </Grid>

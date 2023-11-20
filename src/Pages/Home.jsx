@@ -10,11 +10,11 @@ import Fund from "../components/Home/Fund";
 import Hero from "../components/Home/Hero";
 import LatestUpdates from "../components/Home/LatestUpdates";
 import Portfolio from "../components/Home/Portfolio";
-import Services from "../components/Home/Services";
 import Subscribe from "../components/Home/Subscribe";
 import Testimonial from "../components/TestimonialSection";
 import GetInTouch from "../components/GetinTouch";
 import { Box } from "@mui/material";
+import Services from "../components/Services";
 
 const Home = () => {
   return (

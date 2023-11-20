@@ -62,6 +62,8 @@ const Partners = () => {
         sx={{ textAlign : 'center', fontWeight: 700 , fontFamily: 'Montserrat' , fontSize : "18px" }} color={"#000000"}
       >
         Our Partners
+              <br/>
+            <img src="Vector.png" alt="" />
       </Typography>
 
       <Grid container mb={7} mx={0}  gap={10}>

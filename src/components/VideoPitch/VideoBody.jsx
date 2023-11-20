@@ -103,8 +103,9 @@ const VideoBody = () => {
         color={"#444444"}
       >
         Our Services
-        <br />
-        <div
+              <br/>
+            <img src="Vector.png" alt="" />
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "center",
@@ -114,7 +115,7 @@ const VideoBody = () => {
           <span
             style={{ height: "3px", width: "50px", backgroundColor: "#FF8C22" }}
           ></span>
-        </div>
+        </div> */}
       </Typography>
       <Grid container px={{ lg: 10, md: 5, xs: 2 }} my={5}>
         <Grid

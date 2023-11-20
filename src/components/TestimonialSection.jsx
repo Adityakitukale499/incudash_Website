@@ -25,7 +25,8 @@ const Testimonial = () => {
           xs: 5,
         }}
       >
-        Testimonial Section
+        Testimonial Section<br/>
+        <img src="Vector.png" alt="" />
       </Typography>
 
       <Box

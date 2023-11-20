@@ -6,7 +6,7 @@ import CardContent from "@mui/material/CardContent";
 const Services = () => {
   return (
     <Box sx={{my:5, color:'#212121'}}>
-      <Typography textAlign={"center"} color={"#000000"} variant="h4" mb={2} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }} >
+      <Typography textAlign={"center"} color={"#000000"} variant="h4" mb={1} sx={{  fontWeight: 700, fontFamily : 'Montserrat ,sans-serif' , fontSize : "32px" }} >
         Our Services
       </Typography>
 
@@ -19,12 +19,10 @@ const Services = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: 10,
+            // marginTop: 0,
           }}
         >
-          <span
-            style={{ height: "4px", width: "90px", backgroundColor: "#FF8C22" }}
-          ></span>
+          <img src="Vector.png" alt="" />
         </div>
 
       {/* <Box sx={{ mx: 10 }}>

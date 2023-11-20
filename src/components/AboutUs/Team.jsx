@@ -17,7 +17,9 @@ const Team = () => {
         my={10}
       >
         The Team
-        <br />
+              <br/>
+            <img src="Vector.png" alt="" />
+        {/*
         <div
           style={{
             display: "flex",
@@ -29,7 +31,7 @@ const Team = () => {
           <span
             style={{ height: "3px", width: "50px", backgroundColor: "#FF8C22" }}
           ></span>
-        </div>
+        </div> */}
       </Typography>
 
       <Box
@@ -235,7 +237,7 @@ const Team = () => {
                     fontSize: "20px",
                     lineHeight: "21.6px",
                     textAlign: "center",
-                    color: "#80165E",
+                    color: "#FF8C22",
                     px: 4,
                   }}
                   mt={2}
@@ -246,7 +248,7 @@ const Team = () => {
                   display={"flex"}
                   justifyContent={"center"}
                   alignItems={"center"}
-                  color={"#80165E"}
+                  color={"#FF8C22"}
                 >
                   <LinkedInIcon sx={{ fontSize: 40 }} />
 
@@ -272,7 +274,7 @@ const Team = () => {
               <Box display={"flex"} justifyContent={"end"} mb={'85px'}>
                 <Typography
                   sx={{
-                    bgcolor: "#80165E",
+                    bgcolor: "#FF8C22",
                     width: {lg:"90%",xs:'100%'},
                     color: "#fff",
                     py: 1,

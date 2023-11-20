@@ -6,8 +6,9 @@ const Investors = () => {
     <>
       <Typography sx={{fontFamily: "Poppins" , fontWeight: 600 , fontSize: '28px' , lineHeight:"33.6pxpx" , textAlign: 'center'}} color={"#444444"} my={10}>
         Investors On Board
-        <br />
-        <div
+              <br/>
+            <img src="Vector.png" alt="" />
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "center",
@@ -18,7 +19,7 @@ const Investors = () => {
           <span
             style={{ height: "3px", width: "60px", backgroundColor: "#FF8C22" }}
           ></span>
-        </div>
+        </div> */}
       </Typography>
       {/* <Grid
         item

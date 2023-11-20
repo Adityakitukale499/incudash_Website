@@ -45,8 +45,9 @@ const VideoHelp = () => {
         mt={10}
       >
         What we help you with
-        <br />
-        <div
+              <br/>
+            <img src="Vector.png" alt="" />
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "center",
@@ -57,7 +58,7 @@ const VideoHelp = () => {
           <span
             style={{ height: "3px", width: "50px", backgroundColor: "#FF8C22" }}
           ></span>
-        </div>
+        </div> */}
       </Typography>
 
       <Grid container p={5} px={{lg:15,md:5,xs:1.5}}>

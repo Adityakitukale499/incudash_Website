@@ -36,8 +36,9 @@ const NeedVideo = () => {
           color={"#444444"}
         >
           Why you need Video Pitch.
-          <br />
-          <div
+              <br/>
+            <img src="Vector.png" alt="" />
+          {/* <div
             style={{
               display: "flex",
               justifyContent: "center",
@@ -51,7 +52,7 @@ const NeedVideo = () => {
                 backgroundColor: "#FF8C22",
               }}
             ></span>
-          </div>
+          </div> */}
         </Typography>
 
         <Grid container justifyContent="center" p={7}>

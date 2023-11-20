@@ -28,6 +28,8 @@ const Achievment = () => {
               }}
             >
               We Are Growing
+              <br/>
+            <img src="Vector.png" alt="" />
             </Typography>
             <Typography
               sx={{

@@ -11,11 +11,12 @@ const Portfolio = () => {
           fontWeight: 700,
           fontFamily: "Montserrat",
           fontSize: "18px",
-          my: 5,
+          my: 4,
         }}
         color={"#000000"}
       >
-        Our Investores
+        Our Investores<br/>
+        <img src="Vector.png" alt="" />
       </Typography>
       <Grid
         container
@@ -70,7 +71,8 @@ const Portfolio = () => {
         }}
         color={"#000000"}
       >
-        Our Portfolio
+        Our Portfolio <br/>
+        <img src="Vector.png" alt="" />
       </Typography>
       <Box
         display={"flex"}
@@ -92,7 +94,8 @@ const Portfolio = () => {
         }}
         color={"#000000"}
       >
-        Our Partners
+        Our Partners<br/>
+        <img src="Vector.png" alt="" />
       </Typography>
       <Grid container mb={7} mx={0} gap={10}>
         <Grid

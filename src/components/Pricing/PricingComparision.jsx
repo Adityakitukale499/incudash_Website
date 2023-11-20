@@ -65,7 +65,7 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  lorem ipsum dolor
+                  {/* dolar */}
                 </Typography>
               </Typography>
               <Button
@@ -189,7 +189,7 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-               $599/mo
+               $1,499/mo
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"22.4px"}
@@ -198,7 +198,7 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  lorem ipsum dolor
+                  {/* dolar */}
                 </Typography>
               </Typography>
               <Button
@@ -323,7 +323,7 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-               $599/mo
+               $2.499/mo
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"22.4px"}
@@ -332,7 +332,7 @@ const PricingComparision = () => {
                   fontFamily={"Montserrat"}
                   color={"#333333"}
                 >
-                  lorem ipsum dolor
+                  {/* dolar */}
                 </Typography>
               </Typography>
               <Button

@@ -7,6 +7,8 @@ const Portfolio = () => {
 
 <Typography variant="h6" sx={{ textAlign : "center" , fontFamily: "Montserrat"  , fontWeight: 700 , fontSize: "18px" }} color={"#000000"} >
         Our Portfolio
+              <br/>
+            <img src="Vector.png" alt="" />
       </Typography>
      
 

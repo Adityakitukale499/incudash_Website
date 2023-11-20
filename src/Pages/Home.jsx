@@ -1,5 +1,5 @@
 import React from "react";
-import Achievments from "../components/Home/Achievment";
+import Achievments from "../components/Achievment";
 import Body from "../components/Home/Body";
 import Cards from "../components/Home/Cards";
 

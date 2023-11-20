@@ -9,7 +9,7 @@ import Portfolio from "../components/VideoPitch/Portfolio";
 import MainSection from "../components/MainSection";
 import GetinTouch from "../components/GetinTouch";
 import Testimonial from "../components/TestimonialSection";
-import Achievment from "../components/Home/Achievment";
+import Achievment from "../components/Achievment";
 
 const VideoPitch = () => {
   return (

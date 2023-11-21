@@ -15,33 +15,41 @@ const Portfolio = () => {
         }}
         color={"#000000"}
       >
-        Our Investores<br/>
+        Our Investores
+        <br />
         <img src="Vector.png" alt="" />
       </Typography>
       <Grid
         container
         sx={{ gap: 5, mb: 5, display: "flex", justifyContent: "center" }}
       >
-        <Grid item xs={12} lg={5.7} 
+        <Grid
+          item
+          xs={12}
+          lg={5.7}
           display={"flex"}
           justifyContent={"center"}
-          alignItems={"center"}>
+          alignItems={"center"}
+        >
           <Box>
-          <Typography
-            sx={{
-              textAlign: { lg: "start", xs: "center" },
-              fontWeight: 600,
-              fontFamily: "Montserrat",
-              fontSize: "12px",
-              fontStyle: "italic",
-            }}
-            color={"#545454"}
-          >
-            <span style={{ fontSize: "12px",fontWeight: 900 }}>Venture Catalysts</span> <br />
-            Raising funds from Venture Catalysts certainly helped our business
-            to expand our reach offline and upgrade logistics and
-            infrastructural needs.
-          </Typography>
+            <Typography
+              sx={{
+                textAlign: { lg: "start", xs: "center" },
+                fontWeight: 600,
+                fontFamily: "Montserrat",
+                fontSize: "12px",
+                fontStyle: "italic",
+              }}
+              color={"#545454"}
+            >
+              <span style={{ fontSize: "12px", fontWeight: 900 }}>
+                Venture Catalysts
+              </span>{" "}
+              <br />
+              Raising funds from Venture Catalysts certainly helped our business
+              to expand our reach offline and upgrade logistics and
+              infrastructural needs.
+            </Typography>
           </Box>
         </Grid>
 
@@ -71,7 +79,7 @@ const Portfolio = () => {
         }}
         color={"#000000"}
       >
-        Our Portfolio <br/>
+        Our Portfolio <br />
         <img src="Vector.png" alt="" />
       </Typography>
       <Box
@@ -94,7 +102,8 @@ const Portfolio = () => {
         }}
         color={"#000000"}
       >
-        Our Partners<br/>
+        Our Partners
+        <br />
         <img src="Vector.png" alt="" />
       </Typography>
       <Grid container mb={7} mx={0} gap={10}>

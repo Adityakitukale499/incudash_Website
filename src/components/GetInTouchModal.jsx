@@ -36,7 +36,7 @@ export default function GetInTouchModal({ open, setOpen }) {
     e.preventDefault();
     if (!name && !email && !message) {
       // alert("please fill the all data");
-      fillErrorTost()
+      fillErrorTost();
       return;
     }
     // const newEntry = { email, password };
@@ -56,16 +56,16 @@ export default function GetInTouchModal({ open, setOpen }) {
       }
     );
     if (res) {
-      setResetCaptcha(!resetCaptcha)
+      setResetCaptcha(!resetCaptcha);
       setEmail("");
       setMessage("");
       setName("");
       success();
-      
+
       // alert("store data succsesfully");
     } else {
       // alert("faield");
-      errorTost()
+      errorTost();
     }
   };
   return (
@@ -96,13 +96,14 @@ export default function GetInTouchModal({ open, setOpen }) {
                 fontFamily: "Montserrat",
                 fontWeight: 700,
                 fontSize: "32px",
-                lineHeight: "38.4px",
+                lineHeight: "30px",
                 textAlign: "center",
                 color: "#000000",
               }}
               mb={2}
             >
-              Get in touch
+              Get in touch <br />
+                <img src="Vector.png" alt="" />
             </Typography>
 
             <Typography
@@ -123,7 +124,7 @@ export default function GetInTouchModal({ open, setOpen }) {
               sx={{
                 display: "flex",
                 justifyContent: "center",
-                minWidth: {lg:"450px",xs:'300px'},
+                minWidth: { lg: "450px", xs: "300px" },
               }}
             >
               <form

@@ -61,7 +61,6 @@ const Body = () => {
                 the most out of their funding opportunities.
               </Typography>
               <br />
-
               <Typography
                 variant="body1"
                 sx={{

@@ -4,7 +4,7 @@ import { Box, Grid, Typography } from "@mui/material";
 const Investors = () => {
   return (
     <>
-      <Typography sx={{fontFamily: "Poppins" , fontWeight: 600 , fontSize: '28px' , lineHeight:"33.6pxpx" , textAlign: 'center'}} color={"#444444"} my={10}>
+      <Typography sx={{fontFamily: "Poppins" , fontWeight: 600 , fontSize: '28px' , lineHeight:"30px" , textAlign: 'center'}} color={"#444444"} my={5}>
         Investors On Board
               <br/>
             <img src="Vector.png" alt="" />

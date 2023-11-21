@@ -121,11 +121,11 @@ const Hero = () => {
         backgroundImage: "url('Hero Heading.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition:'center center' ,
+        backgroundPosition: "center center",
         mt: 2,
       }}
     >
-      <Grid container spacing={2} sx={{ py: 8, px:4 }}>
+      <Grid container spacing={2} sx={{ py: 8, px: 4 }}>
         <Grid
           item
           lg={12}

@@ -6,7 +6,7 @@ const OurServices = () => {
   return (
     <>
       <MainSection routeName={"Our Services"} />
-      <Services/>
+      <Services />
     </>
   );
 };

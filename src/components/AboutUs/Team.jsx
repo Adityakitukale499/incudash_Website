@@ -17,8 +17,8 @@ const Team = () => {
         my={10}
       >
         The Team
-              <br/>
-            <img src="Vector.png" alt="" />
+        <br />
+        <img src="Vector.png" alt="" />
         {/*
         <div
           style={{
@@ -210,7 +210,8 @@ const Team = () => {
               xs={12}
               display={"flex"}
               flexDirection={"column"}
-              justifyContent={"space-between"} p={1}
+              justifyContent={"space-between"}
+              p={1}
             >
               <Box
                 display={"flex"}
@@ -266,16 +267,20 @@ const Team = () => {
                   </Typography>
                 </Box>
               </Box>
-              <Box display={{lg:'flex',xs:'none'}} justifyContent={"end"} px={4}>
+              <Box
+                display={{ lg: "flex", xs: "none" }}
+                justifyContent={"end"}
+                px={4}
+              >
                 <img src="easytopitchLogo.png" alt="logo" />
               </Box>
             </Grid>
-            <Grid item lg={8} xs={12}p={1}>
-              <Box display={"flex"} justifyContent={"end"} mb={'85px'}>
+            <Grid item lg={8} xs={12} p={1}>
+              <Box display={"flex"} justifyContent={"end"} mb={"85px"}>
                 <Typography
                   sx={{
                     bgcolor: "#FF8C22",
-                    width: {lg:"90%",xs:'100%'},
+                    width: { lg: "90%", xs: "100%" },
                     color: "#fff",
                     py: 1,
                     px: 4,
@@ -296,14 +301,17 @@ const Team = () => {
                   fontSize: "14px",
                   lineHeight: "21px",
                   // color: "#aaaaaa",
-                  my:1
+                  my: 1,
                 }}
               >
                 Priyanka Madnani is an experienced startup advisor and pitch
                 expert in India and at global platforms, having helped over
                 10,000+ startups turn their ideas into successful pitch stories
-                through her brand, <span style={{fontSize: "14px",fontWeight:700}}> Easy To Pitch, a Venture Catalyst backed
-                firm.</span> 
+                through her brand,{" "}
+                <span style={{ fontSize: "14px", fontWeight: 700 }}>
+                  {" "}
+                  Easy To Pitch, a Venture Catalyst backed firm.
+                </span>
               </Typography>
               <Typography
                 sx={{
@@ -312,7 +320,7 @@ const Team = () => {
                   fontSize: "14px",
                   lineHeight: "21px",
                   // color: "#aaaaaa",
-                  my:1
+                  my: 1,
                 }}
               >
                 She has been recognised on multiple platforms for her expertise
@@ -326,7 +334,7 @@ const Team = () => {
                   fontSize: "14px",
                   lineHeight: "21px",
                   // color: "#aaaaaa",
-                  my:1
+                  my: 1,
                 }}
               >
                 Priyanka is a sought-after speaker and mentor for top
@@ -344,13 +352,20 @@ const Team = () => {
                   fontSize: "14px",
                   lineHeight: "21px",
                   // color: "#aaaaaa",
-                  mt:1
+                  mt: 1,
                 }}
               >
-                She has recently ventured into <span style={{fontSize: "14px",fontWeight:700}}> Terex</span>  to help investors get
-                powerful investment opportunities with potential and promising
-                startups. She has past record of getting <span style={{fontSize: "14px",fontWeight:700}}>7 startups invested
-                from her network of investors such as Hesa, Fitspire and more.</span> 
+                She has recently ventured into{" "}
+                <span style={{ fontSize: "14px", fontWeight: 700 }}>
+                  {" "}
+                  Terex
+                </span>{" "}
+                to help investors get powerful investment opportunities with
+                potential and promising startups. She has past record of getting{" "}
+                <span style={{ fontSize: "14px", fontWeight: 700 }}>
+                  7 startups invested from her network of investors such as
+                  Hesa, Fitspire and more.
+                </span>
               </Typography>
             </Grid>
           </Grid>

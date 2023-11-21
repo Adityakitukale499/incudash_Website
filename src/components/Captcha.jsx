@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-export default ({ enterValid, setValidateCaptcha,resetCaptcha }) => {
+export default ({ enterValid, setValidateCaptcha, resetCaptcha }) => {
   const lengthOfCaptcha = 4;
   const SECURITY_CODE_LENGTH = lengthOfCaptcha;
   const [values, setValues] = useState("");
@@ -12,8 +12,9 @@ export default ({ enterValid, setValidateCaptcha,resetCaptcha }) => {
       Math.floor(Math.random() * 36).toString(36)
     ).join("");
 
-    const securityCodeImageElement =
-      document.getElementById(`securityCodeImage-${random.current}`);
+    const securityCodeImageElement = document.getElementById(
+      `securityCodeImage-${random.current}`
+    );
     console.log(securityCodeImageElement);
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
@@ -65,7 +66,7 @@ export default ({ enterValid, setValidateCaptcha,resetCaptcha }) => {
 
   useEffect(() => {
     generateSecurityCodeImage();
-    setValues('')
+    setValues("");
   }, [resetCaptcha]);
 
   return (

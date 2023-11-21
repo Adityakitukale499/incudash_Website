@@ -83,10 +83,7 @@ const VideoBody = () => {
           </Grid>
           <Grid item xs={12} lg={5} display={"flex"} justifyContent={"center"}>
             <Box sx={{ width: { lg: "497px", xs: "350px" } }}>
-            <img
-              src="Website.jpg"
-              style={{width:'100%'}}
-            />
+              <img src="Website.jpg" style={{ width: "100%" }} />
             </Box>
           </Grid>
         </Grid>
@@ -103,8 +100,8 @@ const VideoBody = () => {
         color={"#444444"}
       >
         Our Services
-              <br/>
-            <img src="Vector.png" alt="" />
+        <br />
+        <img src="Vector.png" alt="" />
         {/* <div
           style={{
             display: "flex",

@@ -78,16 +78,18 @@ const GetInTouch = () => {
                 fontFamily: "Montserrat",
                 fontWeight: 700,
                 fontSize: "32px",
-                lineHeight: "38.4px",
-                textAlign: {lg:'start', xs:"center"},
+                lineHeight: "32px",
+                textAlign: { lg: "start", xs: "center" },
                 color: "#000000",
                 width: "85%",
                 maxWidth: "600px",
               }}
               mb={2}
             >
-              Get in touch <br/>
-              <span style={{padding:'0 15px'}} px={3}><img src="Vector.png" alt="" /></span>
+              Get in touch <br />
+              <span style={{ padding: "0 15px" }} px={3}>
+                <img src="Vector.png" alt="" />
+              </span>
             </Typography>
 
             <Typography
@@ -96,7 +98,7 @@ const GetInTouch = () => {
                 fontWeight: 400,
                 fontSize: "18px",
                 lineHeight: "27px",
-                textAlign: {lg:'start', xs:"center"},
+                textAlign: { lg: "start", xs: "center" },
                 color: "#000000",
                 width: "85%",
                 maxWidth: "600px",

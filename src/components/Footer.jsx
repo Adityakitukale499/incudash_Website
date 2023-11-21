@@ -328,7 +328,6 @@
 
 // export default Footer;
 
-
 import { Box, Grid, Typography } from "@mui/material";
 import { orange } from "@mui/material/colors";
 import React from "react";
@@ -345,7 +344,7 @@ const Footer = () => {
         // backgroundImage: "url('Hero.png')",
         // backgroundRepeat: "no-repeat",
         // backgroundSize: "cover",
-        bgcolor:'#000000',
+        bgcolor: "#000000",
         p: {
           lg: 8,
           md: 6,
@@ -368,7 +367,7 @@ const Footer = () => {
             alt="companyLogo"
             height={50}
             style={{ margin: "25px 0" }}
-            onClick={()=> navigate('/')}
+            onClick={() => navigate("/")}
           />
         </Grid>
 
@@ -411,7 +410,7 @@ const Footer = () => {
                     fontWeight: 400,
                     fontSize: "14px",
                     lineHeight: "28px",
-                    color:'#fff'
+                    color: "#fff",
                   }}
                 >
                   Toll-Free: 18003099044 <br />
@@ -450,7 +449,7 @@ const Footer = () => {
                     fontWeight: 400,
                     fontSize: "14px",
                     lineHeight: "28px",
-                    color:'#fff'
+                    color: "#fff",
                   }}
                 >
                   One stop solution <br />
@@ -489,7 +488,7 @@ const Footer = () => {
                     fontWeight: 400,
                     fontSize: "14px",
                     lineHeight: "28px",
-                    color:'#fff'
+                    color: "#fff",
                   }}
                 >
                   Pitch Deck <br />
@@ -523,7 +522,6 @@ const Footer = () => {
                 >
                   Useful Links
                 </Typography>
-
                 <NavLink
                   to="/"
                   style={({ isActive }) => ({
@@ -536,7 +534,8 @@ const Footer = () => {
                   })}
                 >
                   Home
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/aboutus"
                   style={({ isActive }) => ({
@@ -549,7 +548,8 @@ const Footer = () => {
                   })}
                 >
                   About Us
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/ourservices"
                   style={({ isActive }) => ({
@@ -562,7 +562,8 @@ const Footer = () => {
                   })}
                 >
                   Our Services
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/getfunded"
                   style={({ isActive }) => ({
@@ -575,7 +576,8 @@ const Footer = () => {
                   })}
                 >
                   Get Funded
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/videopitch"
                   style={({ isActive }) => ({
@@ -588,7 +590,8 @@ const Footer = () => {
                   })}
                 >
                   Video Pitch
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/investors"
                   style={({ isActive }) => ({
@@ -601,7 +604,8 @@ const Footer = () => {
                   })}
                 >
                   Investors
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/blogs"
                   style={({ isActive }) => ({
@@ -614,7 +618,8 @@ const Footer = () => {
                   })}
                 >
                   Blogs
-                </NavLink> <br />
+                </NavLink>{" "}
+                <br />
                 <NavLink
                   to="/pricing"
                   style={({ isActive }) => ({
@@ -653,7 +658,7 @@ const Footer = () => {
           justifyContent: "center",
           textAlign: "center",
           marginTop: 20,
-          color:'#ffffff'
+          color: "#ffffff",
         }}
       >
         Copyright &copy; 2023&nbsp;

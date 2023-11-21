@@ -19,18 +19,17 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "light" ? "orange" : "#308fe8",
   },
 }));
-function Number({num}){
-  const {number} = useSpring({
-    from: {number:0},
-    number:num,
-    delay:100,
-    config:{mass:1 , tension: 20, friction: 10},
-  })
-  return number.to((n)=> n.toFixed(0))
+function Number({ num }) {
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: num,
+    delay: 100,
+    config: { mass: 1, tension: 20, friction: 10 },
+  });
+  return number.to((n) => n.toFixed(0));
 }
 
 const VideoHelp = () => {
- 
   return (
     <>
       <Typography
@@ -45,8 +44,8 @@ const VideoHelp = () => {
         mt={10}
       >
         What we help you with
-              <br/>
-            <img src="Vector.png" alt="" />
+        <br />
+        <img src="Vector.png" alt="" />
         {/* <div
           style={{
             display: "flex",
@@ -61,7 +60,7 @@ const VideoHelp = () => {
         </div> */}
       </Typography>
 
-      <Grid container p={5} px={{lg:15,md:5,xs:1.5}}>
+      <Grid container p={5} px={{ lg: 15, md: 5, xs: 1.5 }}>
         <Grid item xs={12} lg={6} p={2} px={2}>
           <Typography
             variant="body1"

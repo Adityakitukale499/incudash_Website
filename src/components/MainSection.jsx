@@ -10,7 +10,7 @@ const MainSection = ({ routeName }) => {
         sx={{
           mt: 0,
           p: 2,
-          px: {lg:18,md:15,xs:8},
+          px: { lg: 18, md: 15, xs: 8 },
           textAlign: "start",
           bgcolor: "#F5F7FA",
           color: "#212121",

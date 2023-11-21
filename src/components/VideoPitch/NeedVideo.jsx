@@ -36,8 +36,8 @@ const NeedVideo = () => {
           color={"#444444"}
         >
           Why you need Video Pitch.
-              <br/>
-            <img src="Vector.png" alt="" />
+          <br />
+          <img src="Vector.png" alt="" />
           {/* <div
             style={{
               display: "flex",

@@ -36,7 +36,7 @@ header {
   padding: 0 10vw;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
   z-index: 99;
-  top:0
+  top: 0;
 }
 .main-header {
   display: flex;
@@ -120,7 +120,7 @@ header {
     flex-direction: column;
     align-items: center;
     display: none;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin-top: 0;
     z-index: 99;
     /* margin-bottom: 15px; */

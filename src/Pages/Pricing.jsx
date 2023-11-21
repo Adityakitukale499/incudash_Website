@@ -5,10 +5,10 @@ import MainSection from "../components/MainSection";
 
 const Pricing = () => {
   return (
-    <div>
+    <>
       <MainSection routeName={"Pricing"} />
       <PricingComparision />
-    </div>
+    </>
   );
 };
 

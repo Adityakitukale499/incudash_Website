@@ -4,12 +4,12 @@ import Navbar from "./Route/Navbar";
 import MyRoutes from "./Route/MyRoutes";
 import Footer from "./components/Footer";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 import { Box } from "@mui/material";
 
 function App() {
   return (
-    <Box sx={{mt:{md:'67px',xs:'0px'}}}>
+    <Box sx={{ mt: { md: "67px", xs: "0px" } }}>
       <BrowserRouter>
         <Navbar />
         <MyRoutes />
@@ -27,7 +27,6 @@ function App() {
           pauseOnHover
           theme="dark"
         />
-        
       </BrowserRouter>
     </Box>
   );

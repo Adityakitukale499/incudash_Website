@@ -5,10 +5,10 @@ import GetinTouch from "../components/GetinTouch";
 
 const ContactUs = () => {
   return (
-    <div>
+    <>
       <MainSection routeName={"Contact Us"} />
       <GetinTouch />
-    </div>
+    </>
   );
 };
 

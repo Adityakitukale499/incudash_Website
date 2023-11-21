@@ -18,7 +18,7 @@ import Services from "../components/Services";
 
 const Home = () => {
   return (
-    <Box sx={{mt:{md:'82px',xs:'0px'}}}>
+    <Box sx={{ mt: { md: "82px", xs: "0px" } }}>
       <Hero />
       <Achievments />
       <Body />
@@ -29,7 +29,7 @@ const Home = () => {
       <Portfolio />
       {/* <LatestUpdates /> */}
       {/* <FeatureSection /> */}
-      <Testimonial/>
+      <Testimonial />
       <GetInTouch />
       {/* <Subscribe /> */}
     </Box>

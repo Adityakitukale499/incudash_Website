@@ -9,7 +9,7 @@ const Testimonial = () => {
           textAlign: "center",
           fontFamily: "Montserrat",
           fontWeight: 700,
-          lineHeight: "38.4px",
+          lineHeight: "32px",
           fontSize: {
             lg: "32px",
             md: "30px",
@@ -25,7 +25,8 @@ const Testimonial = () => {
           xs: 5,
         }}
       >
-        Testimonial Section<br/>
+        Testimonial Section
+        <br />
         <img src="Vector.png" alt="" />
       </Typography>
 

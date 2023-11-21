@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import GetInTouchModal from "../GetInTouchModal";
 
 const Fund = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   return (
     <Box sx={{ display: "flex", justifyContent: "center", color: "#545454" }}>
       <Grid container sx={{ width: "80%", gap: 5 }}>
@@ -40,7 +40,7 @@ const Fund = () => {
               }}
               color={"#FFFFFF"}
             >
-           Call Now:
+              Call Now:
             </Typography>
             {/* <Typography
               variant="h3"
@@ -129,11 +129,11 @@ const Fund = () => {
                 fontFamily: "Open Sans",
                 fontSize: "16px",
               }}
-              onClick={()=> setOpen(true)}
+              onClick={() => setOpen(true)}
             >
               Learn More
             </Button>
-            <GetInTouchModal open={open} setOpen={setOpen}/>
+            <GetInTouchModal open={open} setOpen={setOpen} />
           </Box>
         </Grid>
       </Grid>

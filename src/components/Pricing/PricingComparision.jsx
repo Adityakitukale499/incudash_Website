@@ -19,7 +19,12 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
+              sx={{
+                p: 3,
+                width: "100%",
+                boxShadow: "1px 1px 80px #8888",
+                height: "100%",
+              }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -36,18 +41,18 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Basic Package 
+                Basic Package
               </Typography>
-                <Typography
-                  fontSize={"14px"}
-                  lineHeight={"14px"}
-                  fontWeight={400}
-                  textAlign={"center"}
-                  fontFamily={"Montserrat"}
-                  color={"#333333"}
-                >
-                  Starting at
-                </Typography>
+              <Typography
+                fontSize={"14px"}
+                lineHeight={"14px"}
+                fontWeight={400}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#333333"}
+              >
+                Starting at
+              </Typography>
               <Typography
                 fontSize={"24px"}
                 lineHeight={"24px"}
@@ -56,7 +61,7 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-               $599/mo
+                $599/mo
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"22.4px"}
@@ -118,7 +123,7 @@ const PricingComparision = () => {
                     }}
                   >
                     {/* <>Basic Financials</> */}
-                    Financial Valuations 
+                    Financial Valuations
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -136,7 +141,6 @@ const PricingComparision = () => {
                     Investor's Connect (Complimentary)
                   </Typography>
                 </Box>
-       
               </Box>
             </Box>
           </Grid>
@@ -152,7 +156,12 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
+              sx={{
+                p: 3,
+                width: "100%",
+                boxShadow: "1px 1px 80px #8888",
+                height: "100%",
+              }}
               display={"flex"}
               // justifyContent={'center'}
               flexDirection={"column"}
@@ -169,18 +178,18 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Advance Package 
+                Advance Package
               </Typography>
-                <Typography
-                  fontSize={"14px"}
-                  lineHeight={"14px"}
-                  fontWeight={400}
-                  textAlign={"center"}
-                  fontFamily={"Montserrat"}
-                  color={"#333333"}
-                >
-                  Starting at
-                </Typography>
+              <Typography
+                fontSize={"14px"}
+                lineHeight={"14px"}
+                fontWeight={400}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#333333"}
+              >
+                Starting at
+              </Typography>
               <Typography
                 fontSize={"24px"}
                 lineHeight={"24px"}
@@ -189,7 +198,7 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-               $1,499/mo
+                $1,499/mo
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"22.4px"}
@@ -269,7 +278,6 @@ const PricingComparision = () => {
                     Investor's Connect (Complimentary)
                   </Typography>
                 </Box>
-                
               </Box>
             </Box>
           </Grid>
@@ -286,7 +294,12 @@ const PricingComparision = () => {
           >
             <Box
               bgcolor={"white"}
-              sx={{ p: 3, width: "100%", boxShadow: "1px 1px 80px #8888",height:'100%' }}
+              sx={{
+                p: 3,
+                width: "100%",
+                boxShadow: "1px 1px 80px #8888",
+                height: "100%",
+              }}
               display={"flex"}
               flexDirection={"column"}
               gap={2}
@@ -303,18 +316,18 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-                Founder Grooming 
+                Founder Grooming
               </Typography>
-                <Typography
-                  fontSize={"14px"}
-                  lineHeight={"14px"}
-                  fontWeight={400}
-                  textAlign={"center"}
-                  fontFamily={"Montserrat"}
-                  color={"#333333"}
-                >
-                  Starting at
-                </Typography>
+              <Typography
+                fontSize={"14px"}
+                lineHeight={"14px"}
+                fontWeight={400}
+                textAlign={"center"}
+                fontFamily={"Montserrat"}
+                color={"#333333"}
+              >
+                Starting at
+              </Typography>
               <Typography
                 fontSize={"24px"}
                 lineHeight={"24px"}
@@ -323,7 +336,7 @@ const PricingComparision = () => {
                 fontFamily={"Montserrat"}
                 color={"#212121"}
               >
-               $2.499/mo
+                $2.499/mo
                 <Typography
                   fontSize={"14px"}
                   lineHeight={"22.4px"}
@@ -369,7 +382,7 @@ const PricingComparision = () => {
                       fontSize: "14px",
                     }}
                   >
-                   Get 3 Sessions
+                    Get 3 Sessions
                   </Typography>
                 </Box>
                 <Box display={"flex"} gap={1} my={1}>
@@ -398,7 +411,7 @@ const PricingComparision = () => {
                       fontSize: "14px",
                     }}
                   >
-                   Expansion Strategies
+                    Expansion Strategies
                   </Typography>
                 </Box>
                 {/* <Box display={"flex"} gap={1} my={1}>
